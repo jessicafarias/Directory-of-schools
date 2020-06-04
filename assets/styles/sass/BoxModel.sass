@@ -63,3 +63,17 @@ $times : 10
     $number : 25*$i
     .maxh-#{$number}
         max-height: $percent
+
+/*Fixed-sizes*/
+@for $i from 1 through 27
+    $pixels: 50px*$i
+    $number : 50*$i
+    .sizew-#{$number}
+        width: $pixels
+        
+@for $i from 1 through 25
+    $pixels: 50px*$i
+    $number : 50*$i
+    .sizeh-#{$number}
+        height: $pixels
+
