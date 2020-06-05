@@ -1,6 +1,7 @@
 main{
     font-size: 20px;
     overflow-x: hidden;
+    margin: auto;
 }
 
 .video {
@@ -27,15 +28,54 @@ video{
     background-color: rgba(44, 44, 44, 0.774);
 }
 
-.search-section{
-    background-color: blue;
-    max-width: 500px;
-    height: 200px;
-    margin: auto;
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: space-evenly;
-    align-items: center;
+/*GRID EXAMPLE*/
+.grid-container {
+  display: grid;
+  grid-template-columns: 40% 30% 30%;
+  grid-auto-rows: 400px 400px;
+  grid-template-areas:
+    "one two three"
+    "one four five";
+  gap: 10px;
+  max-width:1200px ;
+  margin: auto;
 }
 
+.one {
+  grid-area: one;
+  height: 100%;
+}
+.grid-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    color: white;
+    padding: 10px;
+    font-size: 1.5em;
+}
+
+.one:hover, .two:hover, .three:hover, .four:hover, .five:hover{
+    opacity: 40%;
+}
+
+.two {
+  grid-area: two;
+  height: 100%;
+}
+
+.three {
+  grid-area: three;
+  height: 100%;
+}
+
+.four {
+  grid-area: four;
+  height: 100%;
+}
+
+.five {
+  grid-area: five;
+  height: 100%;
+}
 

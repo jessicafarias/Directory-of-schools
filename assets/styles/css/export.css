@@ -2446,16 +2446,16 @@
 }
 
 /*IMAGES STRECHED*/
-.image-size-cover {
-  width: 100%;
-}
 .image-size-cover div img {
   object-fit: cover;
   object-position: center center;
+  width: 100%;
+  height: 100%;
 }
 .image-size-cover img {
   object-fit: cover;
   object-position: center center;
+  width: 100%;
 }
 
 /*Colors*/
@@ -2476,7 +2476,8 @@ body {
 }
 
 .bgc-blue {
-  background-color: 519cd8;
+  background-color: #519cd8;
+  color: white;
 }
 
 .bgc-black {
@@ -2492,6 +2493,7 @@ body {
 
 .bgc-gray {
   background-color: #99a5a6;
+  color: white;
 }
 
 .bgc-white {
