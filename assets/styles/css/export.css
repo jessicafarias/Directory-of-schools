@@ -2598,6 +2598,36 @@ body {
   height: 40px;
 }
 
+.list {
+  display: flex;
+  margin: auto;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+}
+.list li {
+  background-color: #d3564a;
+  padding: 2em;
+  margin: 10px;
+  width: 25%;
+  height: 30vh;
+  min-width: 300px;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  font-size: 25px;
+}
+.list li button {
+  background-color: #fdd048;
+  padding: 10px;
+  margin-top: 15px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
 .navbar {
   display: flex;
   flex-flow: row wrap;
