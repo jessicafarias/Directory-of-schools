@@ -1,7 +1,11 @@
 main{
     font-size: 20px;
-    overflow-x: hidden;
+    overflow: hidden;
     margin: auto;
+    background-image: url("../../images/UNIVERSE.svg");
+    background-position: center center;
+    background-repeat: repeat;
+    background-size: 500px;
 }
 
 .video {
@@ -36,7 +40,6 @@ video{
   grid-template-areas:
     "one two three"
     "one four five";
-  gap: 10px;
   max-width:1200px ;
   margin: auto;
 }
@@ -51,12 +54,12 @@ video{
     justify-content: flex-end;
     align-items: center;
     color: white;
-    padding: 10px;
+    padding: 20px;
     font-size: 1.5em;
 }
 
 .one:hover, .two:hover, .three:hover, .four:hover, .five:hover{
-    opacity: 40%;
+    opacity: 95%;
 }
 
 .two {
@@ -79,3 +82,12 @@ video{
   height: 100%;
 }
 
+.text-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.5em;
+    margin: auto;
+    max-width: 40%;
+}
