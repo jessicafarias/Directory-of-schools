@@ -2,17 +2,17 @@ main{
     font-size: 20px;
     overflow: hidden;
     margin: auto;
-    background-image: url("../../images/UNIVERSE.svg");
+    background-image: url("../../images/uady.jpg");
     background-position: center center;
-    background-repeat: repeat;
-    background-size: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .video {
     top: 0;
     left: 0;
     min-width: 100%;
-    height: 70vh;
+    height: 100vh;
 }
 
 video{
@@ -28,7 +28,7 @@ video{
     top: 0px;
     left: 0;
     width: 100%;
-    height: 70vh;
+    height: 90vh;
     background-color: rgba(44, 44, 44, 0.774);
 }
 
@@ -36,7 +36,7 @@ video{
 .grid-container {
   display: grid;
   grid-template-columns: 40% 30% 30%;
-  grid-auto-rows: 400px 400px;
+  grid-auto-rows: 45vh 45vh;
   grid-template-areas:
     "one two three"
     "one four five";
@@ -59,7 +59,7 @@ video{
 }
 
 .one:hover, .two:hover, .three:hover, .four:hover, .five:hover{
-    opacity: 95%;
+    opacity: 85%;
 }
 
 .two {
