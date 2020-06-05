@@ -1,3 +1,4 @@
+@import "../css/fonts.css";
 .p-1 {
   padding: 0.25em;
 }
@@ -2455,6 +2456,222 @@
 .image-size-cover img {
   object-fit: cover;
   object-position: center center;
+}
+
+/*Colors*/
+/**/
+body {
+  font-family: Aller, Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+.bgc-red {
+  background-color: #d3564a;
+  color: white;
+}
+
+.bgc-yellow {
+  background-color: #fdd048;
+  color: #383838;
+}
+
+.bgc-blue {
+  background-color: 519cd8;
+}
+
+.bgc-black {
+  background-color: #06121d;
+  color: white;
+}
+
+.bgc-black-transparent {
+  background-color: #383838a2;
+  color: white;
+  border-radius: 10px;
+}
+
+.bgc-gray {
+  background-color: #99a5a6;
+}
+
+.bgc-white {
+  background-color: #f1f1f1a6;
+  color: #383838;
+}
+
+@media screen and (max-width: 576pxpx) and (min-width: 3px) {
+  .bgc-xs-yellow {
+    background-color: #fdd048;
+    color: #383838;
+  }
+
+  .bgc-xs-black {
+    background-color: #383838;
+    color: white;
+  }
+}
+@media screen and (max-width: 768px) and (min-width: 3px) {
+  .bgc-sm-yellow {
+    background-color: #fdd048;
+    color: #383838;
+  }
+
+  .bgc-sm-black {
+    background-color: #383838;
+    color: white;
+  }
+}
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+  .bgc-md-yellow {
+    background-color: #fdd048;
+    color: #383838;
+  }
+
+  .bgc-md-black {
+    background-color: #383838;
+    color: white;
+  }
+}
+@media screen and (max-width: 2300px) and (min-width: 1024px) {
+  .bgc-lg-yellow {
+    background-color: #fdd048;
+    color: #383838;
+  }
+
+  .bgc-lg-black {
+    background-color: #383838;
+    color: white;
+  }
+}
+.paragraph {
+  text-align: justify;
+  width: 90%;
+  padding: 1em;
+  margin: 5% auto;
+}
+
+/* COLOR FORMS */
+.form {
+  padding: 20px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f1f1f1a6;
+  font-size: 20px;
+  font-weight: bold;
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+}
+.form div {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  flex-direction: row;
+}
+.form button {
+  background-color: #d3564a;
+  margin: auto;
+  padding: 10px;
+  color: white;
+  font-size: 18px;
+}
+.form button:hover {
+  color: #06121d;
+  font-size: 18px;
+}
+.form input {
+  width: 80%;
+  color: white;
+  font-size: 24px;
+  height: 40px;
+}
+
+.navbar {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar .container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar .item a {
+  color: white;
+  margin: 10px;
+  padding: 7px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 768px) and (min-width: 3px) {
+  .navbar {
+    display: flex;
+    flex-flow: column wrap-reverse;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  .navbar .container {
+    display: flex;
+    flex-flow: row wrap-reverse;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .navbar .item {
+    margin: 1px;
+    padding: 10px;
+    border: 2px dotted black;
+  }
+}
+.diagonal-slowmotion {
+  animation-name: d-slowmotion;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes d-slowmotion {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(10deg);
+  }
+}
+.updown-slowmotion {
+  animation-name: upd-slowmotion;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes upd-slowmotion {
+  from {
+    transform: translateY(20px);
+  }
+  to {
+    transform: translateY(40px);
+  }
+}
+
+.link-full a, .navbar .item a {
+  background-image: url(../../images/Back-black.png);
+  background-size: 100% 0%;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  transition: background-size 0.5s;
+  color: white;
+  font-size: 1.15em;
+}
+.link-full a:hover, .navbar .item a:hover {
+  background-size: 100% 100%;
+  color: white;
 }
 
 /*# sourceMappingURL=export.css.map */

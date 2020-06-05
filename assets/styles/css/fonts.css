@@ -1,4 +1,17 @@
 @font-face{
+    font-family: 'Tungsten';
+    src: url(../fonts/Tungsten.ttf);
+    font-size: normal;
+    font-weight: normal;
+}
+
+@font-face{
+    font-family: 'Tungsten';
+    src: url(../fonts/Tungsten-Bold.ttf);
+    font-size: normal;
+    font-weight: bold;
+}
+@font-face{
     font-family: 'Aller';
     src: url(../fonts/Aller_Rg.ttf);
     font-size: normal;

@@ -1,0 +1,41 @@
+.navbar 
+    display: flex
+    flex-flow: row wrap
+    justify-content: space-between
+    align-items: center
+
+    .container
+        display: flex
+        flex-flow: row wrap
+        justify-content: space-between
+        align-items: center
+
+    .item
+        @extend .link-full
+        a
+            color: white
+            margin: 10px
+            padding: 7px
+            font-size: 20px
+            text-decoration: none
+
+
+@media screen and ( max-width: map-get($sm,max) ) and ( min-width: map-get($sm,min))
+    .navbar 
+        display: flex
+        flex-flow: column wrap-reverse
+        width: 100%
+        justify-content: space-between
+        align-items: center
+        padding: 10px
+
+        .container
+            display: flex
+            flex-flow: row wrap-reverse
+            width: 100%
+            justify-content: center
+            align-items: center
+        .item 
+            margin: 1px
+            padding: 10px
+            border: 2px dotted black 

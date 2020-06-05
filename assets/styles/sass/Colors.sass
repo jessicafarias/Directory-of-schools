@@ -1,0 +1,122 @@
+@import ../css/fonts.css
+$family: Aller, Arial, Helvetica, sans-serif
+
+/*Colors*/
+$red: #d3564a
+$black-bg: rgb(6,18,29)
+$black: rgb(56,56,56)
+$gold: rgb(164,106,32)
+$orange : rgb(237,147,34)
+$gray: #99a5a6
+$blue: 519cd8
+$mustard: rgb(253,208,72)
+$black-transparent: #383838a2
+$pink: rgb(252,88,95)
+$white: #f1f1f1a6
+
+/**/
+body
+    font-family: $family
+    overflow-x: hidden
+         
+.bgc-red
+    background-color: $red
+    color: white
+.bgc-yellow
+    background-color: $mustard
+    color: $black
+.bgc-blue
+    background-color: $blue
+
+.bgc-black
+    background-color: $black-bg
+    color: white
+.bgc-black-transparent
+    background-color: $black-transparent
+    color: white
+    border-radius: 10px
+.bgc-gray
+    background-color: $gray
+
+.bgc-white
+    background-color:$white
+    color: $black
+
+@media screen and ( max-width: map-get($xs,max) ) and ( min-width: map-get($xs,min))
+    .bgc-xs-yellow
+        background-color: $mustard
+        color: $black
+    .bgc-xs-black
+        background-color: $black
+        color: white
+    
+@media screen and ( max-width: map-get($sm,max) ) and ( min-width: map-get($sm,min))
+    .bgc-sm-yellow
+        background-color: $mustard
+        color: $black
+    .bgc-sm-black
+        background-color: $black
+        color: white
+        
+
+@media screen and ( max-width: map-get($md,max) ) and ( min-width: map-get($md,min))
+    .bgc-md-yellow
+        background-color: $mustard
+        color: $black
+    .bgc-md-black
+        background-color: $black
+        color: white
+
+@media screen and ( max-width: map-get($lg,max) ) and ( min-width: map-get($lg,min))
+    .bgc-lg-yellow
+        background-color: $mustard
+        color: $black
+    .bgc-lg-black
+        background-color: $black
+        color: white
+
+
+.paragraph
+    text-align: justify
+    width: 90%
+    padding: 1em
+    margin:5%  auto
+
+
+/* COLOR FORMS */
+.form
+    padding: 20px
+    border-radius: 20px
+    display: flex
+    flex-direction: column
+    align-items: center
+    background-color: $white
+    font-size: 20px
+    font-weight: bold
+    width: 100%
+    max-width: 800px
+    margin: auto
+
+    div
+        display: flex
+        align-items: center
+        margin-top: 10px
+        flex-direction: row
+
+    button
+        background-color: $red
+        margin: auto
+        padding: 10px
+        color: white
+        font-size: 18px
+        
+    button:hover
+        color: $black-bg
+        font-size: 18px
+
+    input
+        width: 80%
+        color: white
+        font-size: 24px
+        height: 40px
+    
