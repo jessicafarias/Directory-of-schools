@@ -28,8 +28,6 @@ This web page is developed by HTML5, CSS and bootstrap.
 - Ability to create UIs adaptable to different screen sizes using mediaqueries.
 - Apply front-end best practices.
 - Ability to create UIs adjusted to given designs.
-- Strong English written and verbal communication.
-- Ability to communicate information effectively to technical and non-technical people.
 - Ability to translate business requirements into software solutions.
 - Ability to work well in a fast-paced environment under deadlines.
 - Ability to perform tasks and complete projects with minimal supervision.
