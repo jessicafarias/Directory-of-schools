@@ -1,6 +1,6 @@
 # Capstone project
 
-> This website is a directory of several university schools in Merida Yucatan [location](https://www.google.com/maps/place/M%C3%A9rida,+Yuc./@20.9800083,-89.7730044,11z/data=!3m1!4b1!4m5!3m4!1s0x8f56715cab450d17:0x5dfc155715abeb09!8m2!3d20.9673702!4d-89.5925857)
+> This website is a directory of several university schools in [Mérida, Yucatán](https://www.google.com/maps/place/M%C3%A9rida,+Yuc./@20.9800083,-89.7730044,11z/data=!3m1!4b1!4m5!3m4!1s0x8f56715cab450d17:0x5dfc155715abeb09!8m2!3d20.9673702!4d-89.5925857)
 
 ![screenshot](/assets/images/screenshot.png)
 
