@@ -8,132 +8,139 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     </head>
     <body>
+        <nav class="navbar bgc-red z-10">
+                <img class="sizew-100 p-3 " src="../assets/images/UNIVERSEW.svg" alt="universe-logo">
+                <ul class="container">
+                    <li class="item"><a href="../html/result.html">Schools</a></li>
+                    <li class="item"><a href="../index.html">About</a></li>
+                    <li class="item"><a href="../html/UADY.html">More</a></li>
+                </ul>
+        </nav>
         <header>    
             <div class="relative-space ">
-                <img class="z-6 sizew-400 center-50" src="../assets/images/UNIVERSEW.svg" alt="universe logo">
+                <img class="z-6 w-50 center-50" src="../assets/images/UNIVERSEW.svg" alt="universe logo">
                 <div class="video top-50 z-1">
                     <video src="../assets/videos/video1.mp4" autoplay loop></video>
                 </div>
                 <div class="header-overlay center z-2"></div>
-                <!--Navbar-->
-                <div class="top-50 z-5 w-100">
-                    <nav class="navbar bgc-red">
-                        <img class="sizew-100 p-3" src="../assets/images/UNIVERSEW.svg" alt="universe-logo">
-                        <ul class="container">
-                            <li class="item"><a href="../html/result.html">Schools</a></li>
-                            <li class="item"><a href="../index.html">About</a></li>
-                            <li class="item"><a href="../html/UADY.html">More</a></li>
-                        </ul>
-                    </nav>
-                </div>  
-                <!--Form-->
                 <div class="bottom-50 z-6 p-10 w-100">
                     <form class="form">
                         <label>SEARCH BY KEY WORD</label>
                         <div>
                             <input type="text" placeholder="Search">
-                            <button type="submit">SEARCH</button>
+                            <button onClick="parent.href='UADY.html'" type="submit">SEARCH</button>
                         </div>
                     </form>
                 </div>
             </div>
         </header>
-        <!--Main page (search page), with a link to the results page-->
         <main class="main">
 
-            <!--UADY-->
             <div class="row-container relative-space">
                 <img class ="center" src="../assets/images/uady.jpg" alt="University Autonomus of Yucatán">
-                <img class=" center-50 sizeh-400" src="../assets/images/uady-logo.png" alt="uady-logo">
-                <div class="bottom-50 bgc-black-transparent p-5">
+                <img class=" center-50 sizeh-400 " src="../assets/images/uady-logo.png" alt="uady-logo">
+                <div class="bottom-50 bgc-black-transparent p-4 col-24">
                     <p>
-                    This university is the master house of studies in Yucatán, this is the second public institution 
-                    of the Country and occupy the first place in the México south east whit the  most number of bacherlors,
-                    The university Autonomus of Yucatán have 45 degress in several knolege branches, and post-degrees
-                    If you are looking for quality of knoledge UADY is perfect for you
+                        This university is the master house of universities in Yucatán, UADY is rated in the 
+                        second-best public institution of the Country and is rated in the first best place in 
+                        the México southeast with the most number of bachelor's degrees. The Autonomous University 
+                        of Yucatán has 45 degrees and several related knowledge branches, also UADY has several 
+                        post-degrees. If you are looking for quality of knowledge UADY is perfect for you!
                     </p>
+                    <button  onclick="location.href = 'UADY.html';" class="button">View all degre</button>
                 </div>
                 
             </div>
             <!--Universidad anahuac-->
             <div class="row-container">
-                <div class="col-12 image-size-cover">
+                <div class="col-12 col-sm-24 image-size-cover">
                     <img class="h-100" src="../assets/images/Anáhuac.jpg" alt="Anáhuac institution">
                 </div>
-                <div class="col-12 bottom-50 bgc-black-transparent p-5">
-                    <div class="bgc-black-transparent p-5 m-5">
+                <div class="col-12 col-sm-24 bottom-50 bgc-black-transparent p-2">
+                    <div class="bgc-black-transparent text-search">
+                        <img class="sizew-150 image-inline" src="../assets/images/anahuac-logo.png" alt="anahuac-logo">
                         <p>
-                        This is a privet institution in the sout-est, reconozide between one of the best universities universities
-                        in Merida, Yucatán and reconozide for the quality of their curriculum plan.
-                        Actually Anahuac impart 22 programs to complete a degree, 17 pos-degreas y 3 mastering.
-                        Their infrastructure and technology inversion offer to all their students all the necessesary tools
-                        to build a professional of first level.
+                            This is a privet institution in the southeast, recognized between the best universities 
+                            in Merida Yucatán, Anahuac is also and recognized for the quality of their curriculum plan. 
+                            Currently, Anahuac is imparting 22 programs for degrees, 17 pos-degrees y 3 masterings. 
+                            Their infrastructure and technology inversion offer to all students the necessary tools 
+                            to become professionals of the first level.
                         </p>
-                        <img class="sizew-150" src="../assets/images/anahuac-logo.png" alt="anahuac-logo">
+                        <button onclick="location.href = 'UADY.html';" class="button">View all degres</button>
                         </div>
                 </div>
             </div>
             <!--universidad modelo-->
             <div class="row-container relative-space">
                 <div class="center image-size-cover">
-                    <img src="../assets/images/Modelo.jpg" alt="Modelo university">
+                    <img  class="sizeh-600" src="../assets/images/Modelo.jpg" alt="Modelo university">
                 </div>
-                <img class="center-50 sizew-300" src="../assets/images/modelo-logo.png" alt="Modelo logo">
-                <div class="bottom-50 bgc-black-transparent p-5">
-                        <p>Modelo university sice 1997 they started to teach their knoleges, and since then 
-                            their are build a quality education with based on cience and humanos soft skills
-                            Actually they impart 25 degres, 13 post-degree and their have a school of lenguages
-                            Furthermore their have diferents locarions in Valladolid, Yucatán and Q.R.
+                <img class="top-50 sizew-400 col-sm-10 p-4" src="../assets/images/modelo-logo.png" alt="Modelo logo">
+                <div class="bottom-50 bgc-black-transparent p-4 col-sm-24 col-24">
+                        <p>Modelo university starded to teach sice 1997s, and since then, their are building a quality education 
+                            with a strong base on cience and soft skills. Currently they are imparting 25 degres, 13 post-degrees 
+                            and also their have a school of lenguages, furthermore their have diferents locations in Valladolid, 
+                            Yucatán and Quintana Roo
                         </p>
-                        <button type="submit"> View all degrees</button>
+                        <button onclick="location.href = 'UADY.html';" class="button" type="submit"> View all degrees</button>
                 </div>
             </div>
             <!--El tec-->
             <div class="row-container">
-                <img class="col-12" src="../assets/images/Tec.jpg" alt="Institude Tecnological of Mérida University">
-                <div class="col-12">
-                    <div class="bgc-black-transparent p-5 m-5">
-                        <img class="sizew-150" src="../assets/images/tec-logo.png" alt="Tec-logo">
+                <img class="col-12 col-sm-24" src="../assets/images/Tec.jpg" alt="Institude Tecnological of Mérida University">
+                <div class="col-12 col-sm-24">
+                    <div class="bgc-black-transparent text-search">
+                        <img class="sizew-150 image-inline" src="../assets/images/tec-logo.png" alt="Tec-logo">
                         <p>
-                            Public university focussed on administractive áreas and enginerrings
-                            Durign the 54 years their have been teaching and impuls the cientific investigación 
-                            to form professionals in service and society growup.
-                            Actually their have a positcion of the top then between the best universities in Mérida, Yucatán
-                            givin 13 degrees, pos-degress and multiples high level academic programas.
+                            This is a public university they focus on administrative and engineering áreas. They have been teaching 
+                            for more than 54 years and their priority is to impulse the scientific investigación to transform each 
+                            student to professionals. Currently, Marista has a good position between the top ten of the best universities 
+                            in Mérida imparting 13 degrees, 5 pos-degrees, and multiples high-level academic programs.
                         </p>
-                        <button type="submit"> View all degrees</button>
+                        <button onclick="location.href = 'UADY.html';" class="button" type="submit"> View all degrees</button>
                     </div>
                 </div>
             </div>
             <!--Marista-->
             <div class="row-container">
-                <div class="col-12">
-                    <div class="bgc-black-transparent p-5 m-5">
-                        <p><img class="sizew-100" src="../assets/images/marista-logo.png" alt="marista-logo">
-                            This institucion was founded with teaching bases of mristas brothers.
-                            the fundamental caracterisitc of this univeristy is have a solid map curriculum
-                            their impuls to each student to have a great social responsability and
-                            a constant commit whit the learning.
-                            Their educational programs include 15 degress, several option of pos-degress.
+                <div class="col-12 col-sm-24 order-sm-2 ">
+                    <div class="bgc-black-transparent text-search">
+                        <p><img class="sizew-100 image-inline" src="../assets/images/marista-logo.png" alt="marista-logo">
+                            This institution was founded by Maristas brothers. The fundamental characteristic of this university 
+                            is to have a solid map curriculum to impulse each student to have a great social responsibility and 
+                            a constant commitment to scientific education learning. Their educational programs include 15 degrees 
+                            and several options of pos-degrees.
                         </p>
-                        <button type="submit"> View all degrees</button>
+                        <button onclick="location.href = 'UADY.html';" class="button" type="submit"> View all degrees</button>
                     </div>
                 </div>
-                <img class="col-12" src="../assets/images/marista.jpg" alt="Marista University">
+                <img class="col-12 col-sm-24 order-sm-1" src="../assets/images/marista.jpg" alt="Marista University">
             </div>
             <!-- Contact us-->
-            <div class="row-container">
-                <form>
-                    <input type="email" id="fname" name="firstname" placeholder="Your e-mail.." required>
-                    <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
-                    <textarea name="information" id="details" cols="30" rows="10" placeholder="What are you lookin for.."></textarea>
-                    <input type="submit" value="Submit">
-                </form>
+            <div class="row">
+                <div class="submit-form col-24">
+                    <form class="form">
+                        <input type="email" id="fname" name="firstname" placeholder="Your e-mail.." required>
+                        <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+                        <textarea name="information" id="details" cols="30" rows="3" placeholder="What are you lookin for.."></textarea>
+                        <button > CONTACT US </button>
+                    </form>
+                </div>
             </div>
-            <footer class="bgc-black">
-                <img class="sizew-400 p-5" src="../assets/images/UNIVERSEW.svg" alt="univere universit logo">
-                <img class="sizew-200" src="../assets/images/graduate.svg" alt="graduate logo">
+            <footer class="bgc-black row">
+                <div class="p-5">
+                    <img class="sizew-200 p-5" src="../assets/images/UNIVERSEW.svg" alt="">
+                    <img class="sizew-100" src="../assets/images/graduate.svg" alt="">
+                </div>
+                <div class="p-5">
+                    <a class="imageLink" href="https://www.facebook.com/jesk.fr" target="_blank"><img class="social"
+                    src="https://d309knd7es5f10.cloudfront.net/vee/social_facebook.png" alt="Facebook" /></a>
+                    <a class="imageLink" href="https://twitter.com/FariasRosado" target="_blank"><img class="social"
+                    src="https://d309knd7es5f10.cloudfront.net/vee/social_twitter.png" alt="linkedin" /></a>
+                </div>
             </footer>
+            <footer>
+    </footer>
         </main>
     </body>
 </html>

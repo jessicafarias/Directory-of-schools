@@ -1488,7 +1488,7 @@
   display: flex;
   flex-flow: row wrap;
   margin: auto;
-  overflow-x: hidden;
+  overflow: hidden;
   max-width: 1200px;
 }
 
@@ -1554,9 +1554,9 @@
 }
 .relative-space .top-2 {
   position: absolute;
-  top: 0%;
+  top: 0;
   left: 2%;
-  transform: translate(-50%, 0%);
+  transform: translate(-50%, 0);
 }
 .relative-space .bottom-2 {
   position: absolute;
@@ -1572,9 +1572,9 @@
 }
 .relative-space .top-4 {
   position: absolute;
-  top: 0%;
+  top: 0;
   left: 4%;
-  transform: translate(-50%, 0%);
+  transform: translate(-50%, 0);
 }
 .relative-space .bottom-4 {
   position: absolute;
@@ -1590,9 +1590,9 @@
 }
 .relative-space .top-6 {
   position: absolute;
-  top: 0%;
+  top: 0;
   left: 6%;
-  transform: translate(-50%, 0%);
+  transform: translate(-50%, 0);
 }
 .relative-space .bottom-6 {
   position: absolute;
@@ -1608,9 +1608,9 @@
 }
 .relative-space .top-8 {
   position: absolute;
-  top: 0%;
+  top: 0;
   left: 8%;
-  transform: translate(-50%, 0%);
+  transform: translate(-50%, 0);
 }
 .relative-space .bottom-8 {
   position: absolute;
@@ -1626,9 +1626,9 @@
 }
 .relative-space .top-10 {
   position: absolute;
-  top: 0%;
+  top: 0;
   left: 10%;
-  transform: translate(-50%, 0%);
+  transform: translate(-50%, 0);
 }
 .relative-space .bottom-10 {
   position: absolute;
@@ -1644,9 +1644,9 @@
 }
 .relative-space .top-12 {
   position: absolute;
-  top: 0%;
+  top: 0;
   left: 12%;
-  transform: translate(-50%, 0%);
+  transform: translate(-50%, 0);
 }
 .relative-space .bottom-12 {
   position: absolute;
@@ -1662,9 +1662,9 @@
 }
 .relative-space .top-14 {
   position: absolute;
-  top: 0%;
+  top: 0;
   left: 14%;
-  transform: translate(-50%, 0%);
+  transform: translate(-50%, 0);
 }
 .relative-space .bottom-14 {
   position: absolute;
@@ -1680,9 +1680,9 @@
 }
 .relative-space .top-16 {
   position: absolute;
-  top: 0%;
+  top: 0;
   left: 16%;
-  transform: translate(-50%, 0%);
+  transform: translate(-50%, 0);
 }
 .relative-space .bottom-16 {
   position: absolute;
@@ -1698,9 +1698,9 @@
 }
 .relative-space .top-18 {
   position: absolute;
-  top: 0%;
+  top: 0;
   left: 18%;
-  transform: translate(-50%, 0%);
+  transform: translate(-50%, 0);
 }
 .relative-space .bottom-18 {
   position: absolute;
@@ -1716,9 +1716,9 @@
 }
 .relative-space .top-20 {
   position: absolute;
-  top: 0%;
+  top: 0;
   left: 20%;
-  transform: translate(-50%, 0%);
+  transform: translate(-50%, 0);
 }
 .relative-space .bottom-20 {
   position: absolute;
@@ -1734,9 +1734,9 @@
 }
 .relative-space .top-22 {
   position: absolute;
-  top: 0%;
+  top: 0;
   left: 22%;
-  transform: translate(-50%, 0%);
+  transform: translate(-50%, 0);
 }
 .relative-space .bottom-22 {
   position: absolute;
@@ -1752,9 +1752,9 @@
 }
 .relative-space .top-24 {
   position: absolute;
-  top: 0%;
+  top: 0;
   left: 24%;
-  transform: translate(-50%, 0%);
+  transform: translate(-50%, 0);
 }
 .relative-space .bottom-24 {
   position: absolute;
@@ -1770,9 +1770,9 @@
 }
 .relative-space .top-26 {
   position: absolute;
-  top: 0%;
+  top: 0;
   left: 26%;
-  transform: translate(-50%, 0%);
+  transform: translate(-50%, 0);
 }
 .relative-space .bottom-26 {
   position: absolute;
@@ -1788,9 +1788,9 @@
 }
 .relative-space .top-28 {
   position: absolute;
-  top: 0%;
+  top: 0;
   left: 28%;
-  transform: translate(-50%, 0%);
+  transform: translate(-50%, 0);
 }
 .relative-space .bottom-28 {
   position: absolute;
@@ -1806,9 +1806,9 @@
 }
 .relative-space .top-30 {
   position: absolute;
-  top: 0%;
+  top: 0;
   left: 30%;
-  transform: translate(-50%, 0%);
+  transform: translate(-50%, 0);
 }
 .relative-space .bottom-30 {
   position: absolute;
@@ -1824,9 +1824,9 @@
 }
 .relative-space .top-32 {
   position: absolute;
-  top: 0%;
+  top: 0;
   left: 32%;
-  transform: translate(-50%, 0%);
+  transform: translate(-50%, 0);
 }
 .relative-space .bottom-32 {
   position: absolute;
@@ -1842,9 +1842,9 @@
 }
 .relative-space .top-34 {
   position: absolute;
-  top: 0%;
+  top: 0;
   left: 34%;
-  transform: translate(-50%, 0%);
+  transform: translate(-50%, 0);
 }
 .relative-space .bottom-34 {
   position: absolute;
@@ -1860,9 +1860,9 @@
 }
 .relative-space .top-36 {
   position: absolute;
-  top: 0%;
+  top: 0;
   left: 36%;
-  transform: translate(-50%, 0%);
+  transform: translate(-50%, 0);
 }
 .relative-space .bottom-36 {
   position: absolute;
@@ -1878,9 +1878,9 @@
 }
 .relative-space .top-38 {
   position: absolute;
-  top: 0%;
+  top: 0;
   left: 38%;
-  transform: translate(-50%, 0%);
+  transform: translate(-50%, 0);
 }
 .relative-space .bottom-38 {
   position: absolute;
@@ -1896,9 +1896,9 @@
 }
 .relative-space .top-40 {
   position: absolute;
-  top: 0%;
+  top: 0;
   left: 40%;
-  transform: translate(-50%, 0%);
+  transform: translate(-50%, 0);
 }
 .relative-space .bottom-40 {
   position: absolute;
@@ -1914,9 +1914,9 @@
 }
 .relative-space .top-42 {
   position: absolute;
-  top: 0%;
+  top: 0;
   left: 42%;
-  transform: translate(-50%, 0%);
+  transform: translate(-50%, 0);
 }
 .relative-space .bottom-42 {
   position: absolute;
@@ -1932,9 +1932,9 @@
 }
 .relative-space .top-44 {
   position: absolute;
-  top: 0%;
+  top: 0;
   left: 44%;
-  transform: translate(-50%, 0%);
+  transform: translate(-50%, 0);
 }
 .relative-space .bottom-44 {
   position: absolute;
@@ -1950,9 +1950,9 @@
 }
 .relative-space .top-46 {
   position: absolute;
-  top: 0%;
+  top: 0;
   left: 46%;
-  transform: translate(-50%, 0%);
+  transform: translate(-50%, 0);
 }
 .relative-space .bottom-46 {
   position: absolute;
@@ -1968,9 +1968,9 @@
 }
 .relative-space .top-48 {
   position: absolute;
-  top: 0%;
+  top: 0;
   left: 48%;
-  transform: translate(-50%, 0%);
+  transform: translate(-50%, 0);
 }
 .relative-space .bottom-48 {
   position: absolute;
@@ -1986,9 +1986,9 @@
 }
 .relative-space .top-50 {
   position: absolute;
-  top: 0%;
+  top: 0;
   left: 50%;
-  transform: translate(-50%, 0%);
+  transform: translate(-50%, 0);
 }
 .relative-space .bottom-50 {
   position: absolute;
@@ -2004,9 +2004,9 @@
 }
 .relative-space .top-52 {
   position: absolute;
-  top: 0%;
+  top: 0;
   left: 52%;
-  transform: translate(-50%, 0%);
+  transform: translate(-50%, 0);
 }
 .relative-space .bottom-52 {
   position: absolute;
@@ -2022,9 +2022,9 @@
 }
 .relative-space .top-54 {
   position: absolute;
-  top: 0%;
+  top: 0;
   left: 54%;
-  transform: translate(-50%, 0%);
+  transform: translate(-50%, 0);
 }
 .relative-space .bottom-54 {
   position: absolute;
@@ -2040,9 +2040,9 @@
 }
 .relative-space .top-56 {
   position: absolute;
-  top: 0%;
+  top: 0;
   left: 56%;
-  transform: translate(-50%, 0%);
+  transform: translate(-50%, 0);
 }
 .relative-space .bottom-56 {
   position: absolute;
@@ -2058,9 +2058,9 @@
 }
 .relative-space .top-58 {
   position: absolute;
-  top: 0%;
+  top: 0;
   left: 58%;
-  transform: translate(-50%, 0%);
+  transform: translate(-50%, 0);
 }
 .relative-space .bottom-58 {
   position: absolute;
@@ -2076,9 +2076,9 @@
 }
 .relative-space .top-60 {
   position: absolute;
-  top: 0%;
+  top: 0;
   left: 60%;
-  transform: translate(-50%, 0%);
+  transform: translate(-50%, 0);
 }
 .relative-space .bottom-60 {
   position: absolute;
@@ -2094,9 +2094,9 @@
 }
 .relative-space .top-62 {
   position: absolute;
-  top: 0%;
+  top: 0;
   left: 62%;
-  transform: translate(-50%, 0%);
+  transform: translate(-50%, 0);
 }
 .relative-space .bottom-62 {
   position: absolute;
@@ -2112,9 +2112,9 @@
 }
 .relative-space .top-64 {
   position: absolute;
-  top: 0%;
+  top: 0;
   left: 64%;
-  transform: translate(-50%, 0%);
+  transform: translate(-50%, 0);
 }
 .relative-space .bottom-64 {
   position: absolute;
@@ -2130,9 +2130,9 @@
 }
 .relative-space .top-66 {
   position: absolute;
-  top: 0%;
+  top: 0;
   left: 66%;
-  transform: translate(-50%, 0%);
+  transform: translate(-50%, 0);
 }
 .relative-space .bottom-66 {
   position: absolute;
@@ -2148,9 +2148,9 @@
 }
 .relative-space .top-68 {
   position: absolute;
-  top: 0%;
+  top: 0;
   left: 68%;
-  transform: translate(-50%, 0%);
+  transform: translate(-50%, 0);
 }
 .relative-space .bottom-68 {
   position: absolute;
@@ -2166,9 +2166,9 @@
 }
 .relative-space .top-70 {
   position: absolute;
-  top: 0%;
+  top: 0;
   left: 70%;
-  transform: translate(-50%, 0%);
+  transform: translate(-50%, 0);
 }
 .relative-space .bottom-70 {
   position: absolute;
@@ -2184,9 +2184,9 @@
 }
 .relative-space .top-72 {
   position: absolute;
-  top: 0%;
+  top: 0;
   left: 72%;
-  transform: translate(-50%, 0%);
+  transform: translate(-50%, 0);
 }
 .relative-space .bottom-72 {
   position: absolute;
@@ -2202,9 +2202,9 @@
 }
 .relative-space .top-74 {
   position: absolute;
-  top: 0%;
+  top: 0;
   left: 74%;
-  transform: translate(-50%, 0%);
+  transform: translate(-50%, 0);
 }
 .relative-space .bottom-74 {
   position: absolute;
@@ -2220,9 +2220,9 @@
 }
 .relative-space .top-76 {
   position: absolute;
-  top: 0%;
+  top: 0;
   left: 76%;
-  transform: translate(-50%, 0%);
+  transform: translate(-50%, 0);
 }
 .relative-space .bottom-76 {
   position: absolute;
@@ -2238,9 +2238,9 @@
 }
 .relative-space .top-78 {
   position: absolute;
-  top: 0%;
+  top: 0;
   left: 78%;
-  transform: translate(-50%, 0%);
+  transform: translate(-50%, 0);
 }
 .relative-space .bottom-78 {
   position: absolute;
@@ -2256,9 +2256,9 @@
 }
 .relative-space .top-80 {
   position: absolute;
-  top: 0%;
+  top: 0;
   left: 80%;
-  transform: translate(-50%, 0%);
+  transform: translate(-50%, 0);
 }
 .relative-space .bottom-80 {
   position: absolute;
@@ -2274,9 +2274,9 @@
 }
 .relative-space .top-82 {
   position: absolute;
-  top: 0%;
+  top: 0;
   left: 82%;
-  transform: translate(-50%, 0%);
+  transform: translate(-50%, 0);
 }
 .relative-space .bottom-82 {
   position: absolute;
@@ -2292,9 +2292,9 @@
 }
 .relative-space .top-84 {
   position: absolute;
-  top: 0%;
+  top: 0;
   left: 84%;
-  transform: translate(-50%, 0%);
+  transform: translate(-50%, 0);
 }
 .relative-space .bottom-84 {
   position: absolute;
@@ -2310,9 +2310,9 @@
 }
 .relative-space .top-86 {
   position: absolute;
-  top: 0%;
+  top: 0;
   left: 86%;
-  transform: translate(-50%, 0%);
+  transform: translate(-50%, 0);
 }
 .relative-space .bottom-86 {
   position: absolute;
@@ -2328,9 +2328,9 @@
 }
 .relative-space .top-88 {
   position: absolute;
-  top: 0%;
+  top: 0;
   left: 88%;
-  transform: translate(-50%, 0%);
+  transform: translate(-50%, 0);
 }
 .relative-space .bottom-88 {
   position: absolute;
@@ -2346,9 +2346,9 @@
 }
 .relative-space .top-90 {
   position: absolute;
-  top: 0%;
+  top: 0;
   left: 90%;
-  transform: translate(-50%, 0%);
+  transform: translate(-50%, 0);
 }
 .relative-space .bottom-90 {
   position: absolute;
@@ -2364,9 +2364,9 @@
 }
 .relative-space .top-92 {
   position: absolute;
-  top: 0%;
+  top: 0;
   left: 92%;
-  transform: translate(-50%, 0%);
+  transform: translate(-50%, 0);
 }
 .relative-space .bottom-92 {
   position: absolute;
@@ -2382,9 +2382,9 @@
 }
 .relative-space .top-94 {
   position: absolute;
-  top: 0%;
+  top: 0;
   left: 94%;
-  transform: translate(-50%, 0%);
+  transform: translate(-50%, 0);
 }
 .relative-space .bottom-94 {
   position: absolute;
@@ -2400,9 +2400,9 @@
 }
 .relative-space .top-96 {
   position: absolute;
-  top: 0%;
+  top: 0;
   left: 96%;
-  transform: translate(-50%, 0%);
+  transform: translate(-50%, 0);
 }
 .relative-space .bottom-96 {
   position: absolute;
@@ -2418,9 +2418,9 @@
 }
 .relative-space .top-98 {
   position: absolute;
-  top: 0%;
+  top: 0;
   left: 98%;
-  transform: translate(-50%, 0%);
+  transform: translate(-50%, 0);
 }
 .relative-space .bottom-98 {
   position: absolute;
@@ -2436,9 +2436,9 @@
 }
 .relative-space .top-100 {
   position: absolute;
-  top: 0%;
+  top: 0;
   left: 100%;
-  transform: translate(-50%, 0%);
+  transform: translate(-50%, 0);
 }
 .relative-space .bottom-100 {
   position: absolute;
@@ -2561,6 +2561,22 @@ body {
 }
 
 /* COLOR FORMS */
+.button, .form button {
+  background-color: #d3564a;
+  margin: auto;
+  padding: 10px;
+  color: white;
+  font-size: 18px;
+}
+
+.button-yellow, .list li button {
+  background-color: #fdd048;
+  padding: 10px;
+  margin-top: 15px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
 .form {
   padding: 20px;
   border-radius: 20px;
@@ -2580,12 +2596,15 @@ body {
   margin-top: 10px;
   flex-direction: row;
 }
-.form button {
-  background-color: #d3564a;
-  margin: auto;
-  padding: 10px;
-  color: white;
-  font-size: 18px;
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+  .form div {
+    flex-direction: row;
+  }
+}
+@media screen and (max-width: 768px) and (min-width: 3px) {
+  .form div {
+    flex-direction: column;
+  }
 }
 .form button:hover {
   color: #06121d;
@@ -2609,9 +2628,8 @@ body {
   background-color: #d3564a;
   padding: 2em;
   margin: 10px;
-  width: 25%;
+  width: 30%;
   height: 30vh;
-  min-width: 300px;
   min-height: 200px;
   display: flex;
   flex-direction: column;
@@ -2620,14 +2638,18 @@ body {
   justify-content: space-between;
   font-size: 25px;
 }
-.list li button {
-  background-color: #fdd048;
-  padding: 10px;
-  margin-top: 15px;
-  font-size: 20px;
-  cursor: pointer;
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+  .list li {
+    width: 45%;
+    margin: 10px;
+  }
 }
-
+@media screen and (max-width: 768px) and (min-width: 3px) {
+  .list li {
+    width: 95%;
+    margin: 10px 0;
+  }
+}
 .submit-form {
   margin: auto;
 }
@@ -2640,7 +2662,7 @@ body {
 .submit-form textarea {
   width: 100%;
   padding: 0.5em;
-  max-width: 400px;
+  max-width: 500px;
   font-size: 1.5em;
   margin: 20px auto;
   font-family: Aller, Arial, Helvetica, sans-serif;
@@ -2651,6 +2673,24 @@ body {
   flex-flow: row wrap;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 10px;
+}
+@media screen and (max-width: 768px) and (min-width: 3px) {
+  .navbar {
+    flex-flow: column wrap-reverse;
+  }
+  .navbar .container {
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+  .navbar {
+    flex-flow: column wrap-revers;
+  }
 }
 .navbar .container {
   display: flex;
@@ -2666,28 +2706,6 @@ body {
   text-decoration: none;
 }
 
-@media screen and (max-width: 768px) and (min-width: 3px) {
-  .navbar {
-    display: flex;
-    flex-flow: column wrap-reverse;
-    width: 100%;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-  }
-  .navbar .container {
-    display: flex;
-    flex-flow: row wrap-reverse;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-  }
-  .navbar .item {
-    margin: 1px;
-    padding: 10px;
-    border: 2px dotted black;
-  }
-}
 .diagonal-slowmotion {
   animation-name: d-slowmotion;
   animation-duration: 2s;
@@ -2697,10 +2715,10 @@ body {
 
 @keyframes d-slowmotion {
   from {
-    transform: rotate(0deg);
+    transform: rotate(1deg);
   }
   to {
-    transform: rotate(10deg);
+    transform: rotate(-1deg);
   }
 }
 .updown-slowmotion {
@@ -2711,10 +2729,10 @@ body {
 }
 @keyframes upd-slowmotion {
   from {
-    transform: translateY(20px);
+    transform: translateY(0px);
   }
   to {
-    transform: translateY(40px);
+    transform: translateY(10px);
   }
 }
 
@@ -2730,6 +2748,181 @@ body {
 .link-full a:hover, .navbar .item a:hover {
   background-size: 100% 100%;
   color: white;
+}
+
+.order-1 {
+  order: 1;
+}
+
+@media screen and (max-width: 576pxpx) {
+  .order-xs-1 {
+    order: 1;
+  }
+}
+@media screen and (max-width: 768px) and (min-width: 3px) {
+  .order-sm-1 {
+    order: 1;
+  }
+}
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+  .order-md-1 {
+    order: 1;
+  }
+}
+@media screen and (max-width: 2300px) and (min-width: 1024px) {
+  .order-lg-1 {
+    order: 1;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .order-xl-1 {
+    order: 1;
+  }
+}
+.order-2 {
+  order: 2;
+}
+
+@media screen and (max-width: 576pxpx) {
+  .order-xs-2 {
+    order: 2;
+  }
+}
+@media screen and (max-width: 768px) and (min-width: 3px) {
+  .order-sm-2 {
+    order: 2;
+  }
+}
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+  .order-md-2 {
+    order: 2;
+  }
+}
+@media screen and (max-width: 2300px) and (min-width: 1024px) {
+  .order-lg-2 {
+    order: 2;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .order-xl-2 {
+    order: 2;
+  }
+}
+.order-3 {
+  order: 3;
+}
+
+@media screen and (max-width: 576pxpx) {
+  .order-xs-3 {
+    order: 3;
+  }
+}
+@media screen and (max-width: 768px) and (min-width: 3px) {
+  .order-sm-3 {
+    order: 3;
+  }
+}
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+  .order-md-3 {
+    order: 3;
+  }
+}
+@media screen and (max-width: 2300px) and (min-width: 1024px) {
+  .order-lg-3 {
+    order: 3;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .order-xl-3 {
+    order: 3;
+  }
+}
+.order-4 {
+  order: 4;
+}
+
+@media screen and (max-width: 576pxpx) {
+  .order-xs-4 {
+    order: 4;
+  }
+}
+@media screen and (max-width: 768px) and (min-width: 3px) {
+  .order-sm-4 {
+    order: 4;
+  }
+}
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+  .order-md-4 {
+    order: 4;
+  }
+}
+@media screen and (max-width: 2300px) and (min-width: 1024px) {
+  .order-lg-4 {
+    order: 4;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .order-xl-4 {
+    order: 4;
+  }
+}
+.order-5 {
+  order: 5;
+}
+
+@media screen and (max-width: 576pxpx) {
+  .order-xs-5 {
+    order: 5;
+  }
+}
+@media screen and (max-width: 768px) and (min-width: 3px) {
+  .order-sm-5 {
+    order: 5;
+  }
+}
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+  .order-md-5 {
+    order: 5;
+  }
+}
+@media screen and (max-width: 2300px) and (min-width: 1024px) {
+  .order-lg-5 {
+    order: 5;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .order-xl-5 {
+    order: 5;
+  }
+}
+.order-6 {
+  order: 6;
+}
+
+@media screen and (max-width: 576pxpx) {
+  .order-xs-6 {
+    order: 6;
+  }
+}
+@media screen and (max-width: 768px) and (min-width: 3px) {
+  .order-sm-6 {
+    order: 6;
+  }
+}
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+  .order-md-6 {
+    order: 6;
+  }
+}
+@media screen and (max-width: 2300px) and (min-width: 1024px) {
+  .order-lg-6 {
+    order: 6;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .order-xl-6 {
+    order: 6;
+  }
 }
 
 /*# sourceMappingURL=export.css.map */

@@ -3,6 +3,17 @@
     flex-flow: row wrap
     justify-content: space-between
     align-items: center
+    width: 100%
+    position: fixed
+    top: 0
+    left: 0
+    padding: 10px
+    @media screen and ( max-width: map-get($sm,max) ) and ( min-width: map-get($sm,min))
+        flex-flow: column wrap-reverse
+        .container
+            justify-content: center
+    @media screen and ( max-width: map-get($md,max) ) and ( min-width: map-get($md,min))
+        flex-flow: column wrap-revers
 
     .container
         display: flex
@@ -18,24 +29,3 @@
             padding: 7px
             font-size: 20px
             text-decoration: none
-
-
-@media screen and ( max-width: map-get($sm,max) ) and ( min-width: map-get($sm,min))
-    .navbar 
-        display: flex
-        flex-flow: column wrap-reverse
-        width: 100%
-        justify-content: space-between
-        align-items: center
-        padding: 10px
-
-        .container
-            display: flex
-            flex-flow: row wrap-reverse
-            width: 100%
-            justify-content: center
-            align-items: center
-        .item 
-            margin: 1px
-            padding: 10px
-            border: 2px dotted black 
