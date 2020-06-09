@@ -2752,7 +2752,6 @@ body {
 
 .button-yellow, .list div button {
   background-color: #fdd048;
-  max-width: 500px;
 }
 
 .button-white-red {
@@ -2768,7 +2767,6 @@ body {
 .button-blue {
   background-color: #519cd8;
   color: white;
-  max-width: 500px;
 }
 
 .button-gray {
