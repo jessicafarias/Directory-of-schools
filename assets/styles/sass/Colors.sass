@@ -13,6 +13,7 @@ $mustard: rgb(253,208,72)
 $black-transparent: #383838a2
 $pink: rgb(252,88,95)
 $white: #f1f1f18e
+$light-gray: rgb(238,238,238)
 
 /* BACKGROUND COLORS */
 body
@@ -41,6 +42,8 @@ body
 .bgc-white
     background-color:$white
     color: $black
+.bgc-light-gray
+    background-color: $light-gray
 
 @media screen and ( max-width: map-get($xs,max) ) and ( min-width: map-get($xs,min))
     .bgc-xs-yellow
@@ -93,6 +96,7 @@ body
 .button-yellow
     background-color: $mustard
     @extend .btn
+    max-width: 500px
 
 .button-white-red
     background-color: white
@@ -103,6 +107,12 @@ body
     background-color: white
     @extend .btn
     color: $blue
+    
+.button-blue
+    background-color: $blue
+    @extend .btn
+    color: white
+    max-width: 500px
 .button-gray
     background-color: $gray
     @extend .btn
@@ -213,3 +223,9 @@ body
     border: 1px solid $white
     font-size: 20px
 
+
+.select-color
+    font-size: 15px
+    height: 40px
+    width: 100%
+    color: gray

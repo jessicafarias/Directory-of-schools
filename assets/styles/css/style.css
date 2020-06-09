@@ -49,6 +49,9 @@ video {
   max-width: 120px;
 }
 /* Schools section */
+.text-center{
+  text-align: center;
+}
 .image-inline {
   display: block;
   float: left;

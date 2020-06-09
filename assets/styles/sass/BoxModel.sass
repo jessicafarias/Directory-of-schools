@@ -1,4 +1,4 @@
-$times : 10
+$times : 12
 
 @for $i from 1 through $times
     .p-#{$i}
@@ -6,6 +6,11 @@ $times : 10
 @for $i from 1 through $times
     .pt-#{$i}
         padding-top: $i*0.25em
+
+@for $i from 1 through $times
+    .ptb-#{$i}
+        padding-top: $i*0.25em
+        padding-bottom: $i*0.25em
 
 @for $i from 1 through $times
     .pr-#{$i}

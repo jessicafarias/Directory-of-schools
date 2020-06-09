@@ -39,6 +39,14 @@
   padding: 2.5em;
 }
 
+.p-11 {
+  padding: 2.75em;
+}
+
+.p-12 {
+  padding: 3em;
+}
+
 .pt-1 {
   padding-top: 0.25em;
 }
@@ -77,6 +85,74 @@
 
 .pt-10 {
   padding-top: 2.5em;
+}
+
+.pt-11 {
+  padding-top: 2.75em;
+}
+
+.pt-12 {
+  padding-top: 3em;
+}
+
+.ptb-1 {
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
+}
+
+.ptb-2 {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+.ptb-3 {
+  padding-top: 0.75em;
+  padding-bottom: 0.75em;
+}
+
+.ptb-4 {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.ptb-5 {
+  padding-top: 1.25em;
+  padding-bottom: 1.25em;
+}
+
+.ptb-6 {
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+}
+
+.ptb-7 {
+  padding-top: 1.75em;
+  padding-bottom: 1.75em;
+}
+
+.ptb-8 {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.ptb-9 {
+  padding-top: 2.25em;
+  padding-bottom: 2.25em;
+}
+
+.ptb-10 {
+  padding-top: 2.5em;
+  padding-bottom: 2.5em;
+}
+
+.ptb-11 {
+  padding-top: 2.75em;
+  padding-bottom: 2.75em;
+}
+
+.ptb-12 {
+  padding-top: 3em;
+  padding-bottom: 3em;
 }
 
 .pr-1 {
@@ -119,6 +195,14 @@
   padding-right: 2.5em;
 }
 
+.pr-11 {
+  padding-right: 2.75em;
+}
+
+.pr-12 {
+  padding-right: 3em;
+}
+
 .pl-1 {
   padding: 0.25em;
 }
@@ -157,6 +241,14 @@
 
 .pl-10 {
   padding: 2.5em;
+}
+
+.pl-11 {
+  padding: 2.75em;
+}
+
+.pl-12 {
+  padding: 3em;
 }
 
 .prl-1 {
@@ -209,6 +301,16 @@
   padding-left: 2.5em;
 }
 
+.prl-11 {
+  padding-right: 2.75em;
+  padding-left: 2.75em;
+}
+
+.prl-12 {
+  padding-right: 3em;
+  padding-left: 3em;
+}
+
 .m-1 {
   margin: 0.25em;
 }
@@ -247,6 +349,14 @@
 
 .m-10 {
   margin: 2.5em;
+}
+
+.m-11 {
+  margin: 2.75em;
+}
+
+.m-12 {
+  margin: 3em;
 }
 
 .mt-1 {
@@ -289,6 +399,14 @@
   margin-top: 2.5em;
 }
 
+.mt-11 {
+  margin-top: 2.75em;
+}
+
+.mt-12 {
+  margin-top: 3em;
+}
+
 .mr-1 {
   margin-right: 0.25em;
 }
@@ -329,6 +447,14 @@
   margin-right: 2.5em;
 }
 
+.mr-11 {
+  margin-right: 2.75em;
+}
+
+.mr-12 {
+  margin-right: 3em;
+}
+
 .ml-1 {
   margin-left: 0.25em;
 }
@@ -367,6 +493,14 @@
 
 .ml-10 {
   margin-left: 2.5em;
+}
+
+.ml-11 {
+  margin-left: 2.75em;
+}
+
+.ml-12 {
+  margin-left: 3em;
 }
 
 .mrl-1 {
@@ -419,6 +553,16 @@
   margin-left: 2.5em;
 }
 
+.mrl-11 {
+  margin-right: 2.75em;
+  margin-left: 2.75em;
+}
+
+.mrl-12 {
+  margin-right: 3em;
+  margin-left: 3em;
+}
+
 .w-25 {
   width: 25%;
 }
@@ -457,6 +601,14 @@
 
 .w-250 {
   width: 250%;
+}
+
+.w-275 {
+  width: 275%;
+}
+
+.w-300 {
+  width: 300%;
 }
 
 .h-25 {
@@ -499,6 +651,14 @@
   height: 250%;
 }
 
+.h-275 {
+  height: 275%;
+}
+
+.h-300 {
+  height: 300%;
+}
+
 .maxw-25 {
   max-width: 25%;
 }
@@ -539,6 +699,14 @@
   max-width: 250%;
 }
 
+.maxw-275 {
+  max-width: 275%;
+}
+
+.maxw-300 {
+  max-width: 300%;
+}
+
 .maxh-25 {
   max-height: 25%;
 }
@@ -577,6 +745,14 @@
 
 .maxh-250 {
   max-height: 250%;
+}
+
+.maxh-275 {
+  max-height: 275%;
+}
+
+.maxh-300 {
+  max-height: 300%;
 }
 
 /*Fixed-sizes*/
@@ -2509,6 +2685,10 @@ body {
   color: #383838;
 }
 
+.bgc-light-gray {
+  background-color: #eeeeee;
+}
+
 @media screen and (max-width: 576pxpx) and (min-width: 3px) {
   .bgc-xs-yellow {
     background-color: #fdd048;
@@ -2554,7 +2734,7 @@ body {
   }
 }
 /* BUTTOM COLORS */
-.btn, .button-gray, .button-white-blue, .button-white-red, .button-yellow, .list div button {
+.btn, .button-gray, .button-blue, .button-white-blue, .button-white-red, .button-yellow, .list div button {
   padding: 10px;
   margin-top: 15px;
   font-size: 20px;
@@ -2572,6 +2752,7 @@ body {
 
 .button-yellow, .list div button {
   background-color: #fdd048;
+  max-width: 500px;
 }
 
 .button-white-red {
@@ -2582,6 +2763,12 @@ body {
 .button-white-blue {
   background-color: white;
   color: #519cd8;
+}
+
+.button-blue {
+  background-color: #519cd8;
+  color: white;
+  max-width: 500px;
 }
 
 .button-gray {
@@ -2703,6 +2890,13 @@ body {
   color: white;
   border: 1px solid #f1f1f18e;
   font-size: 20px;
+}
+
+.select-color {
+  font-size: 15px;
+  height: 40px;
+  width: 100%;
+  color: gray;
 }
 
 .navbar {
@@ -2977,6 +3171,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  align-content: center;
 }
 
 .d-flex-top-center {
