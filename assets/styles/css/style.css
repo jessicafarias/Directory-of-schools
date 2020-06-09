@@ -32,6 +32,13 @@ video {
   background-color: rgba(44, 44, 44, 0.774);
 }
 
+/*Index html*/
+.border-img{
+  border: 1px solid white;
+  border-radius: 50%;
+  background-color: black;
+  max-width: 120px;
+}
 /* Schools section */
 .image-inline {
   display: block;

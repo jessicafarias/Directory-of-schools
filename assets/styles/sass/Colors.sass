@@ -2,12 +2,12 @@
 $family: Aller, Arial, Helvetica, sans-serif
 
 /*Colors*/
-$red: #d3564a
+$red: #e17f65
 $black-bg: #06121d
 $black: rgb(56,56,56)
 $gold: rgb(164,106,32)
 $orange : rgb(237,147,34)
-$gray: #99a5a6
+$gray: #98a4a6
 $blue: #519cd8
 $mustard: rgb(253,208,72)
 $black-transparent: #383838a2
@@ -76,6 +76,11 @@ body
 
 
 /* COLOR FORMS */
+.btn
+    padding: 10px
+    margin-top: 15px 
+    font-size: 20px
+    cursor: pointer
 
 .button
         background-color: $red
@@ -83,13 +88,36 @@ body
         padding: 10px
         color: white
         font-size: 18px
+        cursor: pointer
 
 .button-yellow
     background-color: $mustard
-    padding: 10px
-    margin-top: 15px 
-    font-size: 20px
-    cursor: pointer
+    @extend .btn
+
+.button-white-red
+    background-color: white
+    @extend .btn
+    color: $red
+
+.button-white-blue
+    background-color: white
+    @extend .btn
+    color: $blue
+.button-gray
+    background-color: $gray
+    @extend .btn
+    color: white
+
+.link-white
+    border-top: 1px solid white
+    border-bottom: 1px solid white 
+    a
+        padding: 5px 5px
+        margin: 5px 5px
+        color: white
+        font-weight: bold
+        text-decoration: none
+
 .form
     padding: 20px
     border-radius: 20px
@@ -173,3 +201,4 @@ body
         font-size: 1.5em
         margin: 20px auto
         font-family: $family
+

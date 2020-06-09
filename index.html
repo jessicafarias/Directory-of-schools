@@ -14,7 +14,7 @@
     <body>
         <header>    
             <div class="relative-space ">
-                <img class="z-6 w-50 center-50" src="assets/images/UNIVERSEW.svg" alt="universe logo">
+                <a href="html/Schools.html"><img class="z-6 w-50 center-50" src="assets/images/UNIVERSEW.svg" alt="universe logo"></a>
                 <div class="video top-50 z-1">
                     <video src="assets/videos/video-books.mp4" autoplay loop></video>
                 </div>
@@ -40,18 +40,24 @@
         </nav>
         <main class="main">
             <div class="row-container bgc-red">
+                <div class="col-12 col-sm-24 text-main d-flex-col order-sm-2">
+                    <p class="bgc-sm-yellow diagonal-slowmotion">More than 10,000 people come to our website to find all details from each school in Merida</p>
+                    <button class="button-white-red" onclick="location.href = 'Schools.html';">Find a school</button>
+                </div>
                 <img class="col-12 col-sm-24" src="assets/images/student-mochila.png" alt="">
-                <p class="col-12 col-sm-24 text-main bgc-sm-yellow diagonal-slowmotion">More than 10,000 people come to our website to find all details from each school in Merida</p>
             </div>
 
-            <div class="row-container bgc-black">
-                <p class="col-12 col-sm-24 text-main updown-slowmotion">You just need to choose one school and we give you all details like the payments, process to enter, school exchanges and more...</p>
+            <div class="row-container bgc-gray">
+                <div class="col-12 col-sm-24 text-main d-flex-col order-sm-2">
+                    <p class="updown-slowmotion">You just need to choose one school and we give you all details like the payments, process to enter, school exchanges and more...</p>
+                    <button class="button-white-blue" onclick="location.href = 'Schools.html';">Find a school</button>
+                </div>
                 <img class="col-12 col-sm-24" src="assets/images/student-banking-hub-international-students.webp" alt="students around the world">
             </div>
 
-            <div class="row-container bgc-red">
+            <div class="row-container bgc-blue">
+                <p class="col-12 col-sm-24 text-main diagonal-slowmotion order-sm-2">We will guide you and help you to access to your new school</p>
                 <img class="col-12 col-sm-24" src="assets/images/merida.png" alt="student walking">
-                <p class="col-12 col-sm-24 text-main diagonal-slowmotion">We will guide you and help you to access to your new school</p>
             </div>
 
             <div class="grid-container image-size-cover">
@@ -74,16 +80,37 @@
                 </div>
             </div>
         
-            <footer class="bgc-black row">
-                <div class="p-5">
-                    <img class="sizew-200 p-5" src="assets/images/UNIVERSEW.svg" alt="">
-                    <img class="sizew-100" src="assets/images/graduate.svg" alt="">
+            <footer class="bgc-black row relative-space p-3 m-3">
+                <div class="d-flex-lg-row row w-100 d-flex-around-center p-3 link-white">
+                    <div class="flex-nowrap">
+                        <a href="index.html">HOME</a>
+                        <a href="html/Schools.html">SEARCH</a>
+                        <a href="index.html">ABOUT US</a>
+                        <a href="https://www.facebook.com">FACEBOOK</a>
+                    </div>
+                    <div class="flex-nowrap">
+                        <a href="#">ADVERTICE</a>
+                        <a href="https://www.twitter.com">TWITTER</a>
+                        <a href="#">BLOG</a>
+                        <a href="https://www.google.com">GOOGLE+</a>
+                    </div>
+                    <img class="top-50 col-2 p-5 border-img display-0001" src="assets/images/graduate.svg" alt="Universe university logo">
                 </div>
-                <div class="p-5">
-                    <a class="imageLink" href="https://www.facebook.com/jesk.fr" target="_blank"><img class="social"
-                    src="https://d309knd7es5f10.cloudfront.net/vee/social_facebook.png" alt="Facebook" /></a>
-                    <a class="imageLink" href="https://twitter.com/FariasRosado" target="_blank"><img class="social"
-                    src="https://d309knd7es5f10.cloudfront.net/vee/social_twitter.png" alt="linkedin" /></a>
+                <div class="row w-100 d-flex-around-center p-5">
+                    <div class="col-6 col-md-24">
+                        <label><h3>SUBSCRIBE</h3></label>
+                        <form class="d-flex-col">
+                            <input type="email" placeholder="your-email@example.com">
+                            <button class="button-gray">send</button>
+                        </form>
+                    </div>
+                    <div class="col-6 col-md-12 col-sm-24">
+                        <h3>CONTACT<p> <p>For more information write us <span>universeuniversity@gmail.com</span></p>
+                    </div >
+                    <div class="col-6 col-md-12 col-sm-24">
+                        <h3>ABOUT</h3>
+                        <p>The purpose of this website is to impulse to the people to integrate to a new school and create a better society</p>
+                    </div>
                 </div>
             </footer>
         </main>

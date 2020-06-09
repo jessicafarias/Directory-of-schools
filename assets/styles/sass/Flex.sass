@@ -1,0 +1,93 @@
+.d-flex-between-center
+    display: flex
+    justify-content: space-between
+    align-items: center
+
+.d-flex-around-center
+    display: flex
+    justify-content: space-around
+    align-items: center
+
+.d-flex-center-center
+    display: flex
+    justify-content: center
+    align-items: center
+
+.d-flex-top-center
+    display: flex
+    justify-content: start
+    align-items: center
+
+.d-flex-end-center
+    display: flex
+    justify-content: flex-end
+    align-items: center
+
+.d-flex-start-center
+    display: flex
+    justify-content: flex-start
+    align-items: center
+
+.d-flex-row
+    display: flex
+    flex-direction: row
+@media screen and ( max-width: map-get($xs,max))
+    .d-flex-xs-row
+        display: flex
+        flex-direction: row
+
+@media screen and ( max-width: map-get($sm,max)) and (min-width: map-get($sm,min))
+    .d-flex-sm-row
+        display: flex
+        flex-direction: row
+
+@media screen and ( max-width: map-get($md,max)) and (min-width: map-get($md,min))
+    .d-flex-md-row
+        display: flex
+        flex-direction: row
+
+@media screen and ( max-width: map-get($lg,max)) and (min-width: map-get($lg,min))
+    .d-flex-lg-row
+        display: flex
+        flex-direction: row
+
+@media screen and (min-width: map-get($xl,min))
+    .d-flex-xl-row
+        display: flex
+        flex-direction: row
+
+.d-flex-col
+    display: flex
+    flex-direction: column
+@media screen and ( max-width: map-get($xs,max))
+    .d-flex-xs-col
+        display: flex
+        flex-direction: column
+
+@media screen and ( max-width: map-get($sm,max)) and (min-width: map-get($sm,min))
+    .d-flex-sm-col
+        display: flex
+        flex-direction: column
+
+@media screen and ( max-width: map-get($md,max)) and (min-width: map-get($md,min))
+    .d-flex-md-col
+        display: flex
+        flex-direction: column
+
+@media screen and ( max-width: map-get($lg,max)) and (min-width: map-get($lg,min))
+    .d-flex-lg-col
+        display: flex
+        flex-direction: column
+
+@media screen and (min-width: map-get($xl,min))
+    .d-flex-xl-col
+        display: flex
+        flex-direction: column
+
+.flex-wrap
+    display: flex
+    flex-wrap: wrap
+
+.flex-nowrap
+    display: flex
+    flex-wrap: nowrap
