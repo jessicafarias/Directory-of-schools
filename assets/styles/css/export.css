@@ -2467,7 +2467,7 @@
 }
 
 /*Colors*/
-/**/
+/* BACKGROUND COLORS */
 body {
   font-family: Aller, Arial, Helvetica, sans-serif;
   overflow-x: hidden;
@@ -2505,7 +2505,7 @@ body {
 }
 
 .bgc-white {
-  background-color: #f1f1f1a6;
+  background-color: #f1f1f18e;
   color: #383838;
 }
 
@@ -2553,8 +2553,8 @@ body {
     color: white;
   }
 }
-/* COLOR FORMS */
-.btn, .button-gray, .button-white-blue, .button-white-red, .button-yellow, .list li button {
+/* BUTTOM COLORS */
+.btn, .button-gray, .button-white-blue, .button-white-red, .button-yellow, .list div button {
   padding: 10px;
   margin-top: 15px;
   font-size: 20px;
@@ -2570,7 +2570,7 @@ body {
   cursor: pointer;
 }
 
-.button-yellow, .list li button {
+.button-yellow, .list div button {
   background-color: #fdd048;
 }
 
@@ -2589,6 +2589,7 @@ body {
   color: white;
 }
 
+/* LINK COLORS */
 .link-white {
   border-top: 1px solid white;
   border-bottom: 1px solid white;
@@ -2597,8 +2598,12 @@ body {
   padding: 5px 5px;
   margin: 5px 5px;
   color: white;
-  font-weight: bold;
+  font-weight: bolder;
   text-decoration: none;
+}
+
+.color-red {
+  color: #e17f65;
 }
 
 .form {
@@ -2607,7 +2612,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #f1f1f1a6;
+  background-color: #f1f1f18e;
   font-size: 20px;
   font-weight: bold;
   width: 100%;
@@ -2641,6 +2646,7 @@ body {
   height: 40px;
 }
 
+/* OBJECT COLORS */
 .list {
   display: flex;
   margin: auto;
@@ -2648,7 +2654,7 @@ body {
   align-items: center;
   justify-content: center;
 }
-.list li {
+.list div {
   background-color: #e17f65;
   padding: 2em;
   margin: 10px;
@@ -2663,13 +2669,13 @@ body {
   font-size: 25px;
 }
 @media screen and (max-width: 1024px) and (min-width: 768px) {
-  .list li {
+  .list div {
     width: 45%;
     margin: 10px;
   }
 }
 @media screen and (max-width: 768px) and (min-width: 3px) {
-  .list li {
+  .list div {
     width: 95%;
     margin: 10px 0;
   }
@@ -2690,6 +2696,13 @@ body {
   font-size: 1.5em;
   margin: 20px auto;
   font-family: Aller, Arial, Helvetica, sans-serif;
+}
+
+.subscribe-black {
+  background-color: #ffffff00;
+  color: white;
+  border: 1px solid #f1f1f18e;
+  font-size: 20px;
 }
 
 .navbar {

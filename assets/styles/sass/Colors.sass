@@ -12,9 +12,9 @@ $blue: #519cd8
 $mustard: rgb(253,208,72)
 $black-transparent: #383838a2
 $pink: rgb(252,88,95)
-$white: #f1f1f1a6
+$white: #f1f1f18e
 
-/**/
+/* BACKGROUND COLORS */
 body
     font-family: $family
     overflow-x: hidden
@@ -75,7 +75,7 @@ body
         color: white
 
 
-/* COLOR FORMS */
+/* BUTTOM COLORS */
 .btn
     padding: 10px
     margin-top: 15px 
@@ -108,6 +108,7 @@ body
     @extend .btn
     color: white
 
+/* LINK COLORS */
 .link-white
     border-top: 1px solid white
     border-bottom: 1px solid white 
@@ -115,8 +116,11 @@ body
         padding: 5px 5px
         margin: 5px 5px
         color: white
-        font-weight: bold
+        font-weight: bolder
         text-decoration: none
+
+.color-red
+    color: $red
 
 .form
     padding: 20px
@@ -154,6 +158,7 @@ body
         font-size: 24px
         height: 40px
 
+/* OBJECT COLORS */
 .list
     display: flex
     margin: auto
@@ -161,7 +166,7 @@ body
     align-items: center
     justify-content: center
 
-    li
+    div
         background-color: $red
         padding: 2em
         margin: 10px
@@ -201,4 +206,10 @@ body
         font-size: 1.5em
         margin: 20px auto
         font-family: $family
+
+.subscribe-black
+    background-color: #ffffff00
+    color: white
+    border: 1px solid $white
+    font-size: 20px
 
