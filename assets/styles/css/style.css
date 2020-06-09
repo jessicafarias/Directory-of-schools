@@ -1,4 +1,12 @@
 /* GENERAL */
+h1 {
+  margin: auto;
+  font-size: 50px;
+}
+h2{
+  font-weight: bold;
+  font-size: 22px;
+}
 .main {
   font-size: 20px;
   overflow: hidden;
