@@ -87,20 +87,20 @@ ol {
   width: 100%;
   margin: auto;
   border-style: none;
-  height: 500px;
+  height: 75vh;
 }
 
 .mapouter {
   position: relative;
   text-align: right;
-  height: 500px;
+  height: 75vh;
   width: 100%;
 }
 
 .gmap_canvas {
   overflow: hidden;
   background: none !important;
-  height: 500px;
+  height: 75vh;
   width: 100%;
 }
 
