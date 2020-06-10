@@ -3,10 +3,17 @@ h1 {
   margin: auto;
   font-size: 50px;
 }
-h2{
+
+h2 {
   font-weight: bold;
   font-size: 22px;
 }
+
+h3 {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
 .main {
   font-size: 20px;
   overflow: hidden;
@@ -40,40 +47,63 @@ video {
   height: 90vh;
   background-color: rgba(44, 44, 44, 0.774);
 }
+
 /* Navbar */
-.image-ico{
+.image-ico {
   width: 15px;
 }
-/*Index html*/
-.border-img{
+
+/* Index html */
+.border-img {
   border: 1px solid white;
   border-radius: 50%;
   background-color: black;
   max-width: 120px;
 }
-.border-{
+
+.border- {
   border: 1px solid white;
   border-radius: 50%;
   background-color: black;
   max-width: 120px;
 }
+
 ol {
   list-style-type: decimal;
 }
+
 /* Schools section */
-.text-center{
+.text-center {
   text-align: center;
 }
+
 .image-inline {
   display: block;
   float: left;
   margin-right: 10px;
 }
 
-.mapa{
+.mapa {
   width: 100%;
   margin: auto;
+  border-style: none;
+  height: 500px;
 }
+
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: 500px;
+  width: 100%;
+}
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 500px;
+  width: 100%;
+}
+
 .text-search {
   margin: 10px;
   height: 95%;
@@ -158,8 +188,9 @@ ol {
   max-width: 500px;
   padding: 10px;
 }
-/* Location section*/
-.logo-information{
+
+/* Location section */
+.logo-information {
   width: 50px;
   object-fit: contain;
 }
