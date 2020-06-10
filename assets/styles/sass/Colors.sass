@@ -134,6 +134,9 @@ body
 .color-white
     color: white
     font-size: 22px
+.color-gray
+    color: $gray
+    text-decoration: none
 .border
     border: 1px solid $gray
 
@@ -241,3 +244,19 @@ body
     padding-bottom: 20px
     padding-top: 30px
     text-align: center
+
+.form-register
+    @extend .d-flex-col
+    max-width: 600px
+    margin: auto
+    font-size: 18px
+    
+    input
+        max-width: 600px
+        height: 50px
+        background-color: #b6b4b4a4
+        font-size: 20px
+        border-style: none
+        border-bottom: 4px dotted $black
+        margin-bottom: 25px
+    
