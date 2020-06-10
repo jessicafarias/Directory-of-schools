@@ -2795,6 +2795,11 @@ body {
   color: #519cd8;
 }
 
+.color-white {
+  color: white;
+  font-size: 22px;
+}
+
 .border {
   border: 1px solid #98a4a6;
 }
