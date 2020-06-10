@@ -40,13 +40,25 @@ video {
   height: 90vh;
   background-color: rgba(44, 44, 44, 0.774);
 }
-
+/* Navbar */
+.image-ico{
+  width: 15px;
+}
 /*Index html*/
 .border-img{
   border: 1px solid white;
   border-radius: 50%;
   background-color: black;
   max-width: 120px;
+}
+.border-{
+  border: 1px solid white;
+  border-radius: 50%;
+  background-color: black;
+  max-width: 120px;
+}
+ol {
+  list-style-type: decimal;
 }
 /* Schools section */
 .text-center{
@@ -58,6 +70,10 @@ video {
   margin-right: 10px;
 }
 
+.mapa{
+  width: 100%;
+  margin: auto;
+}
 .text-search {
   margin: 10px;
   height: 95%;
@@ -141,6 +157,11 @@ video {
   margin: auto;
   max-width: 500px;
   padding: 10px;
+}
+/* Location section*/
+.logo-information{
+  width: 50px;
+  object-fit: contain;
 }
 
 footer {

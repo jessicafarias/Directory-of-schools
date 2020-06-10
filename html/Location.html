@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Jessica Michelle Farias Rosado" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Universe University</title>
+    <link rel="shortcut icon" href="../assets/images/UUlogo.svg">
+    <link rel="stylesheet" href="../assets/styles/css/reset.css">
+    <link rel="stylesheet" href="../assets/styles/css/fonts.css">
+    <link rel="stylesheet" href="../assets/styles/css/style.css">
+    <link rel="stylesheet" href="../assets/styles/css/export.css">
+</head>
+
+<body>
+    <nav class="navbar bgc-red z-10">
+        <a href="../html/Schools.html"><img class="sizew-100 p-3" src="../assets/images/UNIVERSEW.svg"
+                alt="universe-logo"></a>
+        <ul class="container">
+            <li class="item">
+                <a href="../html/Schools.html">
+                    <img class="image-ico" src="../assets/images/search-ico.png" alt="search-ico">
+                    Schools
+                </a>
+            </li>
+            <li class="item">
+                <a href="../index.html">
+                    <img class="image-ico" src="../assets/images/user-ico.png" alt="about image">
+                    About
+                </a>
+            </li>
+            <li class="item">
+                <a href="../html/Options.html">
+                    <img class="image-ico" src="../assets/images/menu-ico.png" alt="">
+                    More
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <header>
+        <div class="relative-space">
+            <a href="../html/Schools.html"><img class="z-6 w-50 center-50" src="../assets/images/UNIVERSEW.svg"
+                    alt="universe logo"></a>
+            <div class="video top-50 z-1">
+                <video src="../assets/videos/video-books.mp4" autoplay loop></video>
+            </div>
+            <div class="header-overlay center z-2"></div>
+            <div class="bottom-50 z-6 p-10 w-100">
+                <form class="form">
+                    <label>SEARCH BY KEY WORD</label>
+                    <div>
+                        <input type="text" placeholder="Search">
+                        <button type="submit">SEARCH</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!--Filter-->
+        <div class="row d-flex-center-center bgc-light-gray ptb-12">
+            <h1 class="col-24 text-center">Universities in Mérida Yucatán</h1>
+            <p class="col-24 text-center">Choose the university where you want to study, filter the results here:</p>
+            <form class="row d-flex-center-center ">
+                <div class="col-sm-24 col-md-12 drop-form">
+                    <label>
+                        School name:
+                    </label>
+                    <select class="select-color">
+                        <option disabled selected value>Select an option</option>
+                        <option>UADY</option>
+                        <option>Anahuac</option>
+                        <option>TEC</option>
+                        <option>Modelo University</option>
+                        <option>Marista</option>
+                        <option>All Universities</option>
+                    </select>
+                </div>
+                <div class="col-sm-24 col-md-12">
+                    <label>
+                        Near too:
+                    </label>
+                    <select class="select-color">
+                        <option disabled selected value>Select an option</option>
+                        <option>Merida, Yucatán</option>
+                        <option>Telchac Puerto</option>
+                        <option>Ticul</option>
+                        <option>Progreso</option>
+                        <option>Cd. Caucel</option>
+                        <option>All</option>
+                    </select>
+                </div>
+                <div class="col-sm-24 col-md-12">
+                    <label>
+                        Carrer:
+                    </label>
+                    <select class="select-color">
+                        <option disabled selected value>Select an option</option>
+                        <option>Law School</option>
+                        <option>Mathematics and engineering</option>
+                        <option>Psicology</option>
+                        <option>Chemical Sciences</option>
+                        <option>Education</option>
+                        <option>Medicine</option>
+                        <option>Economy</option>
+                    </select>
+                </div>
+                <div class="col-sm-24 col-md-12">
+                    <label>
+                        Gender:
+                    </label>
+                    <select class="select-color">
+                        <option disabled selected value>Select an option</option>
+                        <option>Woman</option>
+                        <option>Men</option>
+                        <option>Other</option>
+                    </select>
+                </div>
+                <button class="button-blue col-md-20 col-sm-24">Search</button>
+                <button class="button-yellow col-md-4 col-sm-24">Clear filter</button>
+            </form>
+        </div>
+        <!-- Contact us-->
+        <div class="border p-2 m-2">
+            <div class="d-flex-row row-container d-flex-center-center">
+                <img src="../assets/images/uady-logo.jpg" class="logo-information" alt="uady-logo">
+                <h1 class="col-22 col-md-20 text-center col-sm-24">Autonomous University of Yucatan</h1>
+            </div>
+            <div class="row-container">
+                <h2 class="col-12 col-sm-24 text-center p-3">School: Autonomous University of Yucatan</h2>
+                <h2 class="col-12 col-sm-24 text-center p-3">Near to: <span class="color-blue">Centro Mérida</span></h2>
+                <h2 class="col-12 col-sm-24 text-center p-3">Email: <span class="color-blue">universidad@uady.com</span></h2>
+                <h2 class="col-12 col-sm-24 text-center p-3">Phone: <span class="color-blue">999-85-4050</span></h2>
+                <h2 class="col-12 col-sm-24 text-center p-3">Performance: <span class="color-blue">10 +</span></h2>
+                <h2 class="col-12 col-sm-24 text-center p-3">Level: High</h2>
+            </div>
+            <div class="d-flex-end-center row-container">
+                <button class="button-blue">APPLY</button>
+            </div>
+        </div>
+        <!--Map-->
+        <div class="mapouter w-100">
+            <div class="gmap_canvas">
+                <iframe class="mapa" height="500" id="gmap_canvas"
+                    src="https://maps.google.com/maps?q=uady%20merida&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                    frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                    href="https://www.embedgooglemap.net/blog/divi-discount-code-elegant-themes-coupon/"></a></div>
+            <style>
+                .mapouter {
+                    position: relative;
+                    text-align: right;
+                    height: 500px;
+                    width: 100%;
+                }
+
+                .gmap_canvas {
+                    overflow: hidden;
+                    background: none !important;
+                    height: 500px;
+                    width: 100%;
+                }
+            </style>
+        </div>
+    
+        <footer class="bgc-black row relative-space pt-5 m-3">
+            <div class="d-flex-lg-row row w-100 d-flex-around-center p-3 link-white">
+                <div class="flex-nowrap">
+                    <a href="index.html">HOME</a>
+                    <a href="html/Schools.html">SEARCH</a>
+                    <a href="index.html">ABOUT US</a>
+                    <a href="https://www.facebook.com">FACEBOOK</a>
+                </div>
+                <div class="flex-nowrap">
+                    <a href="#">ADVERTICE</a>
+                    <a href="https://www.twitter.com">TWITTER</a>
+                    <a href="#">BLOG</a>
+                    <a href="https://www.google.com">GOOGLE+</a>
+                </div>
+                <img class="top-50 col-2 p-5 border-img display-0001" src="../assets/images/graduate.svg"
+                    alt="Universe university logo">
+            </div>
+            <div class="row w-100 d-flex-around-center p-5">
+                <div class="col-6 col-md-24">
+                    <label>
+                        <h3 class="p-3">SUBSCRIBE</h3>
+                    </label>
+                    <form class="d-flex-col">
+                        <input class="subscribe-black" type="email" placeholder="your-email@example.com">
+                        <button class="button-gray">send</button>
+                    </form>
+                </div>
+                <div class="col-6 col-md-12 col-sm-24">
+                    <h3 class="p-3">CONTACT</h3>
+                    <p>For more information write us <span class="color-red">universeuniversity@gmail.com</span></p>
+                </div>
+                <div class="col-6 col-md-12 col-sm-24">
+                    <h3 class="p-3">ABOUT</h3>
+                    <p>The purpose of this website is to impulse to the people to integrate to a new school and create a
+                        better society <span class="color-red">Learn more...</span></p>
+                </div>
+            </div>
+            <div class="row bgc-white w-100 d-flex-between-center p-3">
+                <div>
+                    <img class="sizew-50" src="../assets/images/facebook.svg" alt="facebook">
+                    <img class="sizew-50" src="../assets/images/twitter.svg" alt="twitter">
+                    <img class="sizew-50" src="../assets/images/email.svg" alt="email logo">
+                </div>
+                <p>Universe University the best <br>website in the world</p>
+            </div>
+        </footer>
+    </main>
+</body>
+
+</html>
