@@ -14,16 +14,6 @@ h3 {
   margin-top: 10px;
 }
 
-.main {
-  font-size: 20px;
-  overflow: hidden;
-  margin: auto;
-  background-image: url("../../images/uady.jpg");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 .video {
   top: 0;
   left: 0;
@@ -70,6 +60,14 @@ video {
 
 ol {
   list-style-type: decimal;
+}
+
+/* Options section */
+.image-option{
+  fill: #e46f52;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 /* Schools section */
@@ -203,14 +201,15 @@ footer {
   align-items: center;
 }
 
-footer img {
-  opacity: 0.7;
-  filter: alpha(opacity=70);
+.footer-text {
+  font-size: 15px;
+  font-weight: normal;
+  color: gray;
 }
-
-footer img:hover {
-  opacity: 1;
-  filter: alpha(opacity=100);
+.icon-footer{
+  width: 12px;
+  height: 12px;
+  fill: #4d4d4d;
 }
 
 @media screen and (max-width: 768px) and (min-width: 50px) {

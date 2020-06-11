@@ -2,7 +2,7 @@
 $family: Aller, Arial, Helvetica, sans-serif
 
 /*Colors*/
-$red: #e17f65
+$red: #d95f4c
 $black-bg: #06121d
 $black: rgb(56,56,56)
 $gold: rgb(164,106,32)
@@ -12,8 +12,9 @@ $blue: #519cd8
 $mustard: rgb(253,208,72)
 $black-transparent: #383838a2
 $pink: rgb(252,88,95)
-$white: #f1f1f18e
+$white: #f1f1f1ab
 $light-gray: rgb(238,238,238)
+$super-gray: #5f5a5e
 
 /* BACKGROUND COLORS */
 body
@@ -44,6 +45,10 @@ body
     color: $black
 .bgc-light-gray
     background-color: $light-gray
+.bgc-light-black
+    background-color: #1f1f1f
+.bgc-super-gray
+    background-color: $super-gray
 
 @media screen and ( max-width: map-get($xs,max) ) and ( min-width: map-get($xs,min))
     .bgc-xs-yellow
@@ -96,6 +101,8 @@ body
 .button-yellow
     background-color: $mustard
     @extend .btn
+    border-radius: 5px
+    border-style: none
 
 .button-white-red
     background-color: white
@@ -105,24 +112,30 @@ body
 .button-white-blue
     background-color: white
     @extend .btn
+    border-radius: 5px
+    border-style: none
     color: $blue
     
 .button-blue
     background-color: $blue
     @extend .btn
     color: white
+    border-radius: 5px
+    border-style: none
+
 .button-gray
     background-color: $gray
-    @extend .btn
     color: white
+    height: 27px
+
 
 /* TEXT AND LINK COLORS */
 .link-white
-    border-top: 1px solid white
-    border-bottom: 1px solid white 
+    border-top: 1px solid #ffffff28
+    border-bottom: 1px solid #ffffff28
     a
-        padding: 5px 5px
-        margin: 5px 5px
+        padding: 4px 4px
+        margin: 4px 4px
         color: white
         font-weight: bolder
         text-decoration: none
@@ -131,9 +144,19 @@ body
     color: $red
 .color-blue
     color: $blue
+.color-super-gray
+    color: $super-gray
+    font-family: Arial, Helvetica, sans-serif
 .color-white
     color: white
-    font-size: 22px
+    font-size: 20px
+    font-weight: bold
+    
+    span
+        font-size: 20px
+        font-weight: normal
+        font-family: Arial, Helvetica, sans-serif
+
 .color-gray
     color: $gray
     text-decoration: none
@@ -183,20 +206,22 @@ body
     flex-flow: row wrap
     align-items: center
     justify-content: center
+    max-width: 1200px
 
-    div
-        background-color: $red
-        padding: 2em
+    a
+        background-color: #d95f4c
+        padding-bottom: 2em
         margin: 10px
         width: 30%
-        height: 30vh
+        height: 35vh
         min-height: 200px
         display: flex
         flex-direction: column
         align-items: center
         text-align: center
-        justify-content: space-between
+        justify-content: center
         font-size: 25px
+        text-decoration: none
 
         @media screen and ( max-width: map-get($md,max) ) and ( min-width: map-get($md,min))
             width: 45%
@@ -229,8 +254,8 @@ body
     background-color: #ffffff00
     color: white
     border: 1px solid $white
-    font-size: 20px
-
+    font-size: 10px
+    height: 25px
 
 .select-color
     font-size: 15px
@@ -244,6 +269,7 @@ body
     padding-bottom: 20px
     padding-top: 30px
     text-align: center
+    @extend .color-gray
 
 .form-register
     @extend .d-flex-col

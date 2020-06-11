@@ -6,7 +6,9 @@ $times : 12
 @for $i from 1 through $times
     .pt-#{$i}
         padding-top: $i*0.25em
-
+@for $i from 1 through $times
+    .pb-#{$i}
+        padding-bottom: $i*0.25em
 @for $i from 1 through $times
     .ptb-#{$i}
         padding-top: $i*0.25em
@@ -31,6 +33,9 @@ $times : 12
 @for $i from 1 through $times
     .mt-#{$i}
         margin-top: $i*0.25em
+@for $i from 1 through $times
+    .mb-#{$i}
+        margin-bottom: $i*0.25em
 
 @for $i from 1 through $times
     .mr-#{$i}

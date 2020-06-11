@@ -12,61 +12,64 @@
         <link rel="stylesheet" href="../assets/styles/css/export.css">
     </head>
     <body>
-        <nav class="navbar bgc-red z-10">
-            <a href="../html/Schools.html"><img class="sizew-100 p-3" src="../assets/images/UNIVERSEW.svg"
-                    alt="universe-logo"></a>
-            <ul class="container">
-                <li class="item">
-                    <a class="d-flex-row" href="../html/Schools.html">
-                        <img class="image-ico" src="../assets/images/user-ico.png" alt="search-ico">
-                        <p class="display-0001 ml-1">Schools</p>
-                    </a>
-                </li>
-                <li class="item">
-                    <a class="d-flex-row" href="../index.html">
-                        <img class="image-ico" src="../assets/images/wifi-ico.png" alt="about image">
-                        <p class="display-0001 ml-1">About</p>
-                    </a>
-                </li>
-                <li class="item">
-                    <a class="d-flex-row" href="../html/Options.html">
-                        <img class="image-ico" src="../assets/images/search-ico.png" alt="">
-                        <p class="display-0001 ml-1">Search</p>
-                    </a>
-                </li>
-                <li class="item">
-                    <a class="d-flex-row" href="../html/Location.html">
-                        <img class="image-ico" src="../assets/images/menu-ico.png" alt="">
-                        <p class="display-0001 ml-1">More</p>
-                        
-                    </a>
-                </li>
-            </ul>
-        </nav>
-        <header>
-        <div class="relative-space">
-            
-            <div class="video top-50 z-1">
-                <video src="../assets/videos/video-books.mp4" autoplay loop></video>
+    <nav class="navbar bgc-red z-10">
+        <a href="../html/Schools.html">
+            <img class="sizew-50" src="../assets/images/graduate.svg">
+            <img class="sizew-100 p-1" src="../assets/images/UNIVERSEW.svg">
+        </a>
+        <ul class="container">
+            <li class="item">
+                <a href="Location.html" class="d-flex-row" href="../html/Schools.html">
+                    <img class="image-ico" src="../assets/images/user-ico.png" alt="search-ico">
+                    <p class="display-0001 ml-1">Schools</p>
+                </a>
+            </li>
+            <li class="item">
+                <a href="Location.html" class="d-flex-row" href="../index.html">
+                    <img class="image-ico" src="../assets/images/wifi-ico.png" alt="about image">
+                    <p class="display-0001 ml-1">About</p>
+                </a>
+            </li>
+            <li class="item">
+                <a href="Location.html" class="d-flex-row" href="../html/Options.html">
+                    <img class="image-ico" src="../assets/images/search-ico.png" alt="">
+                    <p class="display-0001 ml-1">Search</p>
+                </a>
+            </li>
+            <li class="item">
+                <a href="Location.html" class="d-flex-row" href="../html/Location.html">
+                    <img class="image-ico" src="../assets/images/menu-ico.png" alt="">
+                    <p class="display-0001 ml-1">More</p>
+
+                </a>
+            </li>
+        </ul>
+    </nav>
+        <header class="mb-12">
+            <div class="relative-space">
+                
+                <div class="video top-50 z-1">
+                    <video src="../assets/videos/video-books.mp4" autoplay loop></video>
+                </div>
+                <div class="header-overlay center z-2"></div>
+                <div class="center-50 z-6 p-10 w-100 d-flex-center-center d-flex-col">
+                    <p class="text-center color-white p-5">UNIVERSE UNIVERSITY YOU GATEAWAY TO SCHOOL IN MERIDA</p>
+                    <form class="form">
+                        <label>SEARCH BY KEY WORD</label>
+                        <div>
+                            <input type="text" placeholder="Search">
+                            <button type="submit">SEARCH</button>
+                        </div>
+                    </form>
+                    <button class="button-white-red" onclick="location.href = '../index.html';">How it works</button>
+                </div>
             </div>
-            <div class="header-overlay center z-2"></div>
-            <div class="center-50 z-6 p-10 w-100 d-flex-center-center d-flex-col">
-                <p class="text-center color-white p-5">UNIVERSE UNIVERSITY YOU GATEAWAY TO SCHOOL IN MERIDA</p>
-                <form class="form">
-                    <label>SEARCH BY KEY WORD</label>
-                    <div>
-                        <input type="text" placeholder="Search">
-                        <button type="submit">SEARCH</button>
-                    </div>
-                </form>
-                <button class="button-white-red" onclick="location.href = '../index.html';">How it works</button>
-            </div>
-        </div>
-    </header>
+        </header>
         <main>
-            <div class="row d-flex-center-center bgc-light-gray ptb-12">
-                <h1 class="col-24 text-center">Universities in Mérida Yucatán</h1>
-                <p class="col-24 text-center">Choose the university where you want to study, filter the results here:</p>
+            <!--Filter-->
+            <div class="row-container d-flex-center-center bgc-light-gray p-9">
+                <h1 class="display-none">Results of bachelors degrees</h1>
+                <p class="col-24 text-center color-gray pb-10">Filter by name, Gender, Country, school name: </p>
                 <form class="row d-flex-center-center ">
                     <div class="col-sm-24 col-md-12 drop-form">
                         <label>
@@ -126,138 +129,249 @@
                     <button class="button-yellow col-md-4 col-sm-24">Clear filter</button>
                 </form>
             </div>
-
+            <!--Results-->
             <div class="row">
-                <h2 class="pt-4">Bachelor's degree available for this institution</h2>
-                <p class="intro">                   
-                    This institute is a high-quality member of UNIVERSE UNIVERSITY, click on "Receive Information" 
-                    to be aware of all calls related to the registration process, also we will send to you information 
-                    about the specific bachelor degree you want to apply.
-                </p>
+                <h2 class="text-center col-24 p-5 color-super-gray" >Search Results Found 17 school(s)</h2>
                 <div class="list">
-                    <div>
-                        <p></p>Faculty of Psychology (On-campus)
-                        <button onclick="location.href = 'Location.html';"> Receive Information</button>
-                    </div>
-                    <div>
-                        <p></p>Faculty of Accounting and Administration
-                        <button onclick="location.href = 'Location.html';"> Receive Information</button>
-                    </div>
-                    <div>
-                        <p></p>law School
-                        <button onclick="location.href = 'Location.html';"> Receive Information</button>
-                    </div>
-                    <div>
-                        <p></p>Faculty of Engineering
-                        <button onclick="location.href = 'Location.html';"> Receive Information</button>
-                    </div>
-                    <div>
-                        <p></p>Faculty of Mathematics
-                        <button onclick="location.href = 'Location.html';"> Receive Information</button>
-                    </div>
-                    <div>
-                        <p></p>Faculty of Anthropological Sciences
-                        <button onclick="location.href = 'Location.html';"> Receive Information</button>
-                    </div>
-                    <div>
-                        <p></p>Architecture Faculty
-                        <button onclick="location.href = 'Location.html';"> Receive Information</button>
-                    </div>
-                    <div>
-                        <p></p>Faculty of veterinary medicine and zootechnics
-                        <button onclick="location.href = 'Location.html';"> Receive Information</button>
-                    </div>
-                    <div>
-                        <p>Economy faculty</p>
-                        <button onclick="location.href = 'Location.html';"> Receive Information</button>
-                    </div>
-                    <div>
-                        <p></p>General Directorate for Academic Development
-                        <button onclick="location.href = 'Location.html';"> Receive Information</button>
-                    </div>
-                    <div>
-                        <p></p>Faculty of Chemistry
-                        <button onclick="location.href = 'Location.html';"> Receive Information</button>
-                    </div>
-                    <div>
-                        <p></p>Faculty of Chemical Sciences
-                        <button onclick="location.href = 'Location.html';"> Receive Information</button>
-                    </div>
-                    <div>
-                        <p></p>Faculty of Chemical Engineering
-                        <button onclick="location.href = 'Location.html';"> Receive Information</button>
-                    </div>
-                    <div>
-                        <p></p>Education Faculty
-                        <button onclick="location.href = 'Location.html';"> Receive Information</button>
-                    </div>
-                    <div>
-                        <p></p>School of Medicine
-                        <button onclick="location.href = 'Location.html';"> Receive Information</button>
-                    </div>
-                    <div>
-                        <p>Faculty of Nursing</p>
-                        <button onclick="location.href = 'Location.html';"> Receive Information</button>
-                    </div>
-                    <div>
-                        <p>School of Dentistry</p>
-                        <button onclick="location.href = 'Location.html';"> Receive Information</button>
-                    </div>
+                    <a href="Location.html" class="w-100 relative-space">
+                        <svg class="image-option center-50 z-1" viewBox="0 0 512 700"><g>
+                            <path d="m501.991 128.354-241-85.031c-3.229-1.14-6.752-1.14-9.981 0l-241 85.031c-5.992 2.114-10.002 7.774-10.01 14.128s3.989 12.023 9.976 14.151l241 85.677c1.625.578 3.325.867 5.024.867 1.7 0 3.399-.289 5.024-.867l241-85.677c5.987-2.128 9.983-7.797 9.976-14.151-.008-6.354-4.018-12.014-10.009-14.128z"/>
+                            <path d="m475.973 328.574v-130.84l-30 10.665v120.175c-9.036 5.201-15.125 14.946-15.125 26.121 0 11.174 6.089 20.92 15.125 26.121v73.716c0 8.284 6.716 15 15 15s15-6.716 15-15v-73.715c9.036-5.2 15.125-14.947 15.125-26.121 0-11.175-6.088-20.921-15.125-26.122z"/>
+                            <path d="m256 273.177c-5.149 0-10.22-.875-15.073-2.6l-135.483-48.165v66.008c0 16.149 16.847 29.806 50.073 40.59 28.961 9.4 64.647 14.577 100.483 14.577s71.521-5.177 100.483-14.577c33.226-10.784 50.073-24.441 50.073-40.59v-66.008l-135.482 48.165c-4.854 1.725-9.925 2.6-15.074 2.6z"/></g>
+                        </svg>
+                        <p class="z-2 color-white"><span>NAME:</span>FACULTY OF PSYCHOLOGY</p>
+                    </a>
+                    <a href="Location.html" class="w-100 relative-space">
+                        <svg class="image-option center-50 z-1" viewBox="0 0 512 700"><g>
+                            <path d="m501.991 128.354-241-85.031c-3.229-1.14-6.752-1.14-9.981 0l-241 85.031c-5.992 2.114-10.002 7.774-10.01 14.128s3.989 12.023 9.976 14.151l241 85.677c1.625.578 3.325.867 5.024.867 1.7 0 3.399-.289 5.024-.867l241-85.677c5.987-2.128 9.983-7.797 9.976-14.151-.008-6.354-4.018-12.014-10.009-14.128z"/>
+                            <path d="m475.973 328.574v-130.84l-30 10.665v120.175c-9.036 5.201-15.125 14.946-15.125 26.121 0 11.174 6.089 20.92 15.125 26.121v73.716c0 8.284 6.716 15 15 15s15-6.716 15-15v-73.715c9.036-5.2 15.125-14.947 15.125-26.121 0-11.175-6.088-20.921-15.125-26.122z"/>
+                            <path d="m256 273.177c-5.149 0-10.22-.875-15.073-2.6l-135.483-48.165v66.008c0 16.149 16.847 29.806 50.073 40.59 28.961 9.4 64.647 14.577 100.483 14.577s71.521-5.177 100.483-14.577c33.226-10.784 50.073-24.441 50.073-40.59v-66.008l-135.482 48.165c-4.854 1.725-9.925 2.6-15.074 2.6z"/></g>
+                        </svg>
+                        <p class="z-2 color-white"><span>NAME:</span>FACULTY OF ACCOUNTING AND ADMINISTRATION</p>
+                    </a>
+                    <a href="Location.html" class="w-100 relative-space">
+                        <svg class="image-option center-50 z-1" viewBox="0 0 512 700"><g>
+                               <path d="m501.991 128.354-241-85.031c-3.229-1.14-6.752-1.14-9.981 0l-241 85.031c-5.992 2.114-10.002 7.774-10.01 14.128s3.989 12.023 9.976 14.151l241 85.677c1.625.578 3.325.867 5.024.867 1.7 0 3.399-.289 5.024-.867l241-85.677c5.987-2.128 9.983-7.797 9.976-14.151-.008-6.354-4.018-12.014-10.009-14.128z"/>
+                               <path d="m475.973 328.574v-130.84l-30 10.665v120.175c-9.036 5.201-15.125 14.946-15.125 26.121 0 11.174 6.089 20.92 15.125 26.121v73.716c0 8.284 6.716 15 15 15s15-6.716 15-15v-73.715c9.036-5.2 15.125-14.947 15.125-26.121 0-11.175-6.088-20.921-15.125-26.122z"/>
+                               <path d="m256 273.177c-5.149 0-10.22-.875-15.073-2.6l-135.483-48.165v66.008c0 16.149 16.847 29.806 50.073 40.59 28.961 9.4 64.647 14.577 100.483 14.577s71.521-5.177 100.483-14.577c33.226-10.784 50.073-24.441 50.073-40.59v-66.008l-135.482 48.165c-4.854 1.725-9.925 2.6-15.074 2.6z"/></g>
+                        </svg>
+                        <p class="z-2 color-white"><span>NAME:</span>LAW SCHOOL</p>
+                    </a>
+                    <a href="Location.html" class="w-100 relative-space">
+                        <svg class="image-option center-50 z-1" viewBox="0 0 512 700"><g>
+                               <path d="m501.991 128.354-241-85.031c-3.229-1.14-6.752-1.14-9.981 0l-241 85.031c-5.992 2.114-10.002 7.774-10.01 14.128s3.989 12.023 9.976 14.151l241 85.677c1.625.578 3.325.867 5.024.867 1.7 0 3.399-.289 5.024-.867l241-85.677c5.987-2.128 9.983-7.797 9.976-14.151-.008-6.354-4.018-12.014-10.009-14.128z"/>
+                               <path d="m475.973 328.574v-130.84l-30 10.665v120.175c-9.036 5.201-15.125 14.946-15.125 26.121 0 11.174 6.089 20.92 15.125 26.121v73.716c0 8.284 6.716 15 15 15s15-6.716 15-15v-73.715c9.036-5.2 15.125-14.947 15.125-26.121 0-11.175-6.088-20.921-15.125-26.122z"/>
+                               <path d="m256 273.177c-5.149 0-10.22-.875-15.073-2.6l-135.483-48.165v66.008c0 16.149 16.847 29.806 50.073 40.59 28.961 9.4 64.647 14.577 100.483 14.577s71.521-5.177 100.483-14.577c33.226-10.784 50.073-24.441 50.073-40.59v-66.008l-135.482 48.165c-4.854 1.725-9.925 2.6-15.074 2.6z"/></g>
+                        </svg>
+                        <p class="z-2 color-white"><span>NAME:</span>FACULTY OF ENGINEERING</p>
+                    </a>
+                    <a href="Location.html" class="w-100 relative-space">
+                        <svg class="image-option center-50 z-1" viewBox="0 0 512 700"><g>
+                               <path d="m501.991 128.354-241-85.031c-3.229-1.14-6.752-1.14-9.981 0l-241 85.031c-5.992 2.114-10.002 7.774-10.01 14.128s3.989 12.023 9.976 14.151l241 85.677c1.625.578 3.325.867 5.024.867 1.7 0 3.399-.289 5.024-.867l241-85.677c5.987-2.128 9.983-7.797 9.976-14.151-.008-6.354-4.018-12.014-10.009-14.128z"/>
+                               <path d="m475.973 328.574v-130.84l-30 10.665v120.175c-9.036 5.201-15.125 14.946-15.125 26.121 0 11.174 6.089 20.92 15.125 26.121v73.716c0 8.284 6.716 15 15 15s15-6.716 15-15v-73.715c9.036-5.2 15.125-14.947 15.125-26.121 0-11.175-6.088-20.921-15.125-26.122z"/>
+                               <path d="m256 273.177c-5.149 0-10.22-.875-15.073-2.6l-135.483-48.165v66.008c0 16.149 16.847 29.806 50.073 40.59 28.961 9.4 64.647 14.577 100.483 14.577s71.521-5.177 100.483-14.577c33.226-10.784 50.073-24.441 50.073-40.59v-66.008l-135.482 48.165c-4.854 1.725-9.925 2.6-15.074 2.6z"/></g>
+                        </svg>
+                        <p class="z-2 color-white"><span>NAME:</span>FACULTY OF MATHEMATICS</p>
+                    </a>
+                    <a href="Location.html" class="w-100 relative-space">
+                        <svg class="image-option center-50 z-1" viewBox="0 0 512 700"><g>
+                               <path d="m501.991 128.354-241-85.031c-3.229-1.14-6.752-1.14-9.981 0l-241 85.031c-5.992 2.114-10.002 7.774-10.01 14.128s3.989 12.023 9.976 14.151l241 85.677c1.625.578 3.325.867 5.024.867 1.7 0 3.399-.289 5.024-.867l241-85.677c5.987-2.128 9.983-7.797 9.976-14.151-.008-6.354-4.018-12.014-10.009-14.128z"/>
+                               <path d="m475.973 328.574v-130.84l-30 10.665v120.175c-9.036 5.201-15.125 14.946-15.125 26.121 0 11.174 6.089 20.92 15.125 26.121v73.716c0 8.284 6.716 15 15 15s15-6.716 15-15v-73.715c9.036-5.2 15.125-14.947 15.125-26.121 0-11.175-6.088-20.921-15.125-26.122z"/>
+                               <path d="m256 273.177c-5.149 0-10.22-.875-15.073-2.6l-135.483-48.165v66.008c0 16.149 16.847 29.806 50.073 40.59 28.961 9.4 64.647 14.577 100.483 14.577s71.521-5.177 100.483-14.577c33.226-10.784 50.073-24.441 50.073-40.59v-66.008l-135.482 48.165c-4.854 1.725-9.925 2.6-15.074 2.6z"/></g>
+                        </svg>
+                        <p class="z-2 color-white"><span>NAME:</span>FACULTY OF ANTHROPOLOGICAL SCIENCIES</p>
+                    </a>
+                    <a href="Location.html" class="w-100 relative-space">
+                        <svg class="image-option center-50 z-1" viewBox="0 0 512 700"><g>
+                               <path d="m501.991 128.354-241-85.031c-3.229-1.14-6.752-1.14-9.981 0l-241 85.031c-5.992 2.114-10.002 7.774-10.01 14.128s3.989 12.023 9.976 14.151l241 85.677c1.625.578 3.325.867 5.024.867 1.7 0 3.399-.289 5.024-.867l241-85.677c5.987-2.128 9.983-7.797 9.976-14.151-.008-6.354-4.018-12.014-10.009-14.128z"/>
+                               <path d="m475.973 328.574v-130.84l-30 10.665v120.175c-9.036 5.201-15.125 14.946-15.125 26.121 0 11.174 6.089 20.92 15.125 26.121v73.716c0 8.284 6.716 15 15 15s15-6.716 15-15v-73.715c9.036-5.2 15.125-14.947 15.125-26.121 0-11.175-6.088-20.921-15.125-26.122z"/>
+                               <path d="m256 273.177c-5.149 0-10.22-.875-15.073-2.6l-135.483-48.165v66.008c0 16.149 16.847 29.806 50.073 40.59 28.961 9.4 64.647 14.577 100.483 14.577s71.521-5.177 100.483-14.577c33.226-10.784 50.073-24.441 50.073-40.59v-66.008l-135.482 48.165c-4.854 1.725-9.925 2.6-15.074 2.6z"/></g>
+                        </svg>
+                        <p class="z-2 color-white"><span>NAME:</span>ARCHITECTURE FACULTY</p>
+                    </a>
+                    <a href="Location.html" class="w-100 relative-space">
+                        <svg class="image-option center-50 z-1" viewBox="0 0 512 700"><g>
+                               <path d="m501.991 128.354-241-85.031c-3.229-1.14-6.752-1.14-9.981 0l-241 85.031c-5.992 2.114-10.002 7.774-10.01 14.128s3.989 12.023 9.976 14.151l241 85.677c1.625.578 3.325.867 5.024.867 1.7 0 3.399-.289 5.024-.867l241-85.677c5.987-2.128 9.983-7.797 9.976-14.151-.008-6.354-4.018-12.014-10.009-14.128z"/>
+                               <path d="m475.973 328.574v-130.84l-30 10.665v120.175c-9.036 5.201-15.125 14.946-15.125 26.121 0 11.174 6.089 20.92 15.125 26.121v73.716c0 8.284 6.716 15 15 15s15-6.716 15-15v-73.715c9.036-5.2 15.125-14.947 15.125-26.121 0-11.175-6.088-20.921-15.125-26.122z"/>
+                               <path d="m256 273.177c-5.149 0-10.22-.875-15.073-2.6l-135.483-48.165v66.008c0 16.149 16.847 29.806 50.073 40.59 28.961 9.4 64.647 14.577 100.483 14.577s71.521-5.177 100.483-14.577c33.226-10.784 50.073-24.441 50.073-40.59v-66.008l-135.482 48.165c-4.854 1.725-9.925 2.6-15.074 2.6z"/></g>
+                        </svg>
+                        <p class="z-2 color-white"><span>NAME:</span>FACULTY OF VETERINARY AND ZOOTECHNICS</p>
+                    </a>
+                    <a href="Location.html" class="w-100 relative-space">
+                        <svg class="image-option center-50 z-1" viewBox="0 0 512 700"><g>
+                               <path d="m501.991 128.354-241-85.031c-3.229-1.14-6.752-1.14-9.981 0l-241 85.031c-5.992 2.114-10.002 7.774-10.01 14.128s3.989 12.023 9.976 14.151l241 85.677c1.625.578 3.325.867 5.024.867 1.7 0 3.399-.289 5.024-.867l241-85.677c5.987-2.128 9.983-7.797 9.976-14.151-.008-6.354-4.018-12.014-10.009-14.128z"/>
+                               <path d="m475.973 328.574v-130.84l-30 10.665v120.175c-9.036 5.201-15.125 14.946-15.125 26.121 0 11.174 6.089 20.92 15.125 26.121v73.716c0 8.284 6.716 15 15 15s15-6.716 15-15v-73.715c9.036-5.2 15.125-14.947 15.125-26.121 0-11.175-6.088-20.921-15.125-26.122z"/>
+                               <path d="m256 273.177c-5.149 0-10.22-.875-15.073-2.6l-135.483-48.165v66.008c0 16.149 16.847 29.806 50.073 40.59 28.961 9.4 64.647 14.577 100.483 14.577s71.521-5.177 100.483-14.577c33.226-10.784 50.073-24.441 50.073-40.59v-66.008l-135.482 48.165c-4.854 1.725-9.925 2.6-15.074 2.6z"/></g>
+                        </svg>
+                        <p class="z-2 color-white"><span>NAME:</span>ECONOMY FACULTY</p>
+                    </a>
+                    <a href="Location.html" class="w-100 relative-space">
+                        <svg class="image-option center-50 z-1" viewBox="0 0 512 700"><g>
+                               <path d="m501.991 128.354-241-85.031c-3.229-1.14-6.752-1.14-9.981 0l-241 85.031c-5.992 2.114-10.002 7.774-10.01 14.128s3.989 12.023 9.976 14.151l241 85.677c1.625.578 3.325.867 5.024.867 1.7 0 3.399-.289 5.024-.867l241-85.677c5.987-2.128 9.983-7.797 9.976-14.151-.008-6.354-4.018-12.014-10.009-14.128z"/>
+                               <path d="m475.973 328.574v-130.84l-30 10.665v120.175c-9.036 5.201-15.125 14.946-15.125 26.121 0 11.174 6.089 20.92 15.125 26.121v73.716c0 8.284 6.716 15 15 15s15-6.716 15-15v-73.715c9.036-5.2 15.125-14.947 15.125-26.121 0-11.175-6.088-20.921-15.125-26.122z"/>
+                               <path d="m256 273.177c-5.149 0-10.22-.875-15.073-2.6l-135.483-48.165v66.008c0 16.149 16.847 29.806 50.073 40.59 28.961 9.4 64.647 14.577 100.483 14.577s71.521-5.177 100.483-14.577c33.226-10.784 50.073-24.441 50.073-40.59v-66.008l-135.482 48.165c-4.854 1.725-9.925 2.6-15.074 2.6z"/></g>
+                        </svg>
+                        <p class="z-2 color-white"><span>NAME:</span>FACULTY OF CHEMISTRY</p>
+                    </a>
+                    <a href="Location.html" class="w-100 relative-space">
+                        <svg class="image-option center-50 z-1" viewBox="0 0 512 700"><g>
+                               <path d="m501.991 128.354-241-85.031c-3.229-1.14-6.752-1.14-9.981 0l-241 85.031c-5.992 2.114-10.002 7.774-10.01 14.128s3.989 12.023 9.976 14.151l241 85.677c1.625.578 3.325.867 5.024.867 1.7 0 3.399-.289 5.024-.867l241-85.677c5.987-2.128 9.983-7.797 9.976-14.151-.008-6.354-4.018-12.014-10.009-14.128z"/>
+                               <path d="m475.973 328.574v-130.84l-30 10.665v120.175c-9.036 5.201-15.125 14.946-15.125 26.121 0 11.174 6.089 20.92 15.125 26.121v73.716c0 8.284 6.716 15 15 15s15-6.716 15-15v-73.715c9.036-5.2 15.125-14.947 15.125-26.121 0-11.175-6.088-20.921-15.125-26.122z"/>
+                               <path d="m256 273.177c-5.149 0-10.22-.875-15.073-2.6l-135.483-48.165v66.008c0 16.149 16.847 29.806 50.073 40.59 28.961 9.4 64.647 14.577 100.483 14.577s71.521-5.177 100.483-14.577c33.226-10.784 50.073-24.441 50.073-40.59v-66.008l-135.482 48.165c-4.854 1.725-9.925 2.6-15.074 2.6z"/></g>
+                        </svg>
+                        <p class="z-2 color-white"><span>NAME:</span>FACULTY OF CHEMICCAL ENGINEERING</p>
+                    </a>
+                    <a href="Location.html" class="w-100 relative-space">
+                        <svg class="image-option center-50 z-1" viewBox="0 0 512 700"><g>
+                               <path d="m501.991 128.354-241-85.031c-3.229-1.14-6.752-1.14-9.981 0l-241 85.031c-5.992 2.114-10.002 7.774-10.01 14.128s3.989 12.023 9.976 14.151l241 85.677c1.625.578 3.325.867 5.024.867 1.7 0 3.399-.289 5.024-.867l241-85.677c5.987-2.128 9.983-7.797 9.976-14.151-.008-6.354-4.018-12.014-10.009-14.128z"/>
+                               <path d="m475.973 328.574v-130.84l-30 10.665v120.175c-9.036 5.201-15.125 14.946-15.125 26.121 0 11.174 6.089 20.92 15.125 26.121v73.716c0 8.284 6.716 15 15 15s15-6.716 15-15v-73.715c9.036-5.2 15.125-14.947 15.125-26.121 0-11.175-6.088-20.921-15.125-26.122z"/>
+                               <path d="m256 273.177c-5.149 0-10.22-.875-15.073-2.6l-135.483-48.165v66.008c0 16.149 16.847 29.806 50.073 40.59 28.961 9.4 64.647 14.577 100.483 14.577s71.521-5.177 100.483-14.577c33.226-10.784 50.073-24.441 50.073-40.59v-66.008l-135.482 48.165c-4.854 1.725-9.925 2.6-15.074 2.6z"/></g>
+                        </svg>
+                        <p class="z-2 color-white"><span>NAME:</span>ESUCATION FACULTY</p>
+                    </a>
+                    <a href="Location.html" class="w-100 relative-space">
+                        <svg class="image-option center-50 z-1" viewBox="0 0 512 700"><g>
+                               <path d="m501.991 128.354-241-85.031c-3.229-1.14-6.752-1.14-9.981 0l-241 85.031c-5.992 2.114-10.002 7.774-10.01 14.128s3.989 12.023 9.976 14.151l241 85.677c1.625.578 3.325.867 5.024.867 1.7 0 3.399-.289 5.024-.867l241-85.677c5.987-2.128 9.983-7.797 9.976-14.151-.008-6.354-4.018-12.014-10.009-14.128z"/>
+                               <path d="m475.973 328.574v-130.84l-30 10.665v120.175c-9.036 5.201-15.125 14.946-15.125 26.121 0 11.174 6.089 20.92 15.125 26.121v73.716c0 8.284 6.716 15 15 15s15-6.716 15-15v-73.715c9.036-5.2 15.125-14.947 15.125-26.121 0-11.175-6.088-20.921-15.125-26.122z"/>
+                               <path d="m256 273.177c-5.149 0-10.22-.875-15.073-2.6l-135.483-48.165v66.008c0 16.149 16.847 29.806 50.073 40.59 28.961 9.4 64.647 14.577 100.483 14.577s71.521-5.177 100.483-14.577c33.226-10.784 50.073-24.441 50.073-40.59v-66.008l-135.482 48.165c-4.854 1.725-9.925 2.6-15.074 2.6z"/></g>
+                        </svg>
+                        <p class="z-2 color-white"><span>NAME:</span>SCHOOL OF MEDICINE</p>
+                    </a>
+                    <a href="Location.html" class="w-100 relative-space">
+                        <svg class="image-option center-50 z-1" viewBox="0 0 512 700"><g>
+                               <path d="m501.991 128.354-241-85.031c-3.229-1.14-6.752-1.14-9.981 0l-241 85.031c-5.992 2.114-10.002 7.774-10.01 14.128s3.989 12.023 9.976 14.151l241 85.677c1.625.578 3.325.867 5.024.867 1.7 0 3.399-.289 5.024-.867l241-85.677c5.987-2.128 9.983-7.797 9.976-14.151-.008-6.354-4.018-12.014-10.009-14.128z"/>
+                               <path d="m475.973 328.574v-130.84l-30 10.665v120.175c-9.036 5.201-15.125 14.946-15.125 26.121 0 11.174 6.089 20.92 15.125 26.121v73.716c0 8.284 6.716 15 15 15s15-6.716 15-15v-73.715c9.036-5.2 15.125-14.947 15.125-26.121 0-11.175-6.088-20.921-15.125-26.122z"/>
+                               <path d="m256 273.177c-5.149 0-10.22-.875-15.073-2.6l-135.483-48.165v66.008c0 16.149 16.847 29.806 50.073 40.59 28.961 9.4 64.647 14.577 100.483 14.577s71.521-5.177 100.483-14.577c33.226-10.784 50.073-24.441 50.073-40.59v-66.008l-135.482 48.165c-4.854 1.725-9.925 2.6-15.074 2.6z"/></g>
+                        </svg>
+                        <p class="z-2 color-white"><span>NAME:</span>FACULTY OF NURSING</p>
+                    </a>
+                    <a href="Location.html" class="w-100 relative-space">
+                        <svg class="image-option center-50 z-1" viewBox="0 0 512 700"><g>
+                               <path d="m501.991 128.354-241-85.031c-3.229-1.14-6.752-1.14-9.981 0l-241 85.031c-5.992 2.114-10.002 7.774-10.01 14.128s3.989 12.023 9.976 14.151l241 85.677c1.625.578 3.325.867 5.024.867 1.7 0 3.399-.289 5.024-.867l241-85.677c5.987-2.128 9.983-7.797 9.976-14.151-.008-6.354-4.018-12.014-10.009-14.128z"/>
+                               <path d="m475.973 328.574v-130.84l-30 10.665v120.175c-9.036 5.201-15.125 14.946-15.125 26.121 0 11.174 6.089 20.92 15.125 26.121v73.716c0 8.284 6.716 15 15 15s15-6.716 15-15v-73.715c9.036-5.2 15.125-14.947 15.125-26.121 0-11.175-6.088-20.921-15.125-26.122z"/>
+                               <path d="m256 273.177c-5.149 0-10.22-.875-15.073-2.6l-135.483-48.165v66.008c0 16.149 16.847 29.806 50.073 40.59 28.961 9.4 64.647 14.577 100.483 14.577s71.521-5.177 100.483-14.577c33.226-10.784 50.073-24.441 50.073-40.59v-66.008l-135.482 48.165c-4.854 1.725-9.925 2.6-15.074 2.6z"/></g>
+                        </svg>
+                        <p class="z-2 color-white"><span>NAME:</span>SCHOOL OF DENTISTRY</p>
+                    </a>
                 </div>
             </div>
             
-            <!-- Contact us-->
-            <div class="row">
-                <div class="submit-form col-24">
-                    <form class="form">
-                        <input type="email" id="email" name="email" placeholder="Your e-mail.." required>
-                        <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
-                        <textarea name="information" id="details" cols="30" rows="10" placeholder="What are you looking for?"></textarea>
-                        <button> CONTACT US </button>
+        <!-- Register-->
+        <section id="Register">
+            <h2 class="text-center pt-7">REGISTER FORM</h2>
+            <form class="form-register row ptb-10">
+                <label for="name">FIRST NAME*</label>
+                <input placeholder="First name" id="name">
+
+                <label for="last-name">LAST NAME</label>
+                <input type="text" id="last-name" placeholder="Last name">
+
+                <label for="email">EMAIL</label>
+                <input type="email" id="email" placeholder="E-mail">
+
+                <label for="username">USERNAME*</label>
+                <input type="text" id="username" placeholder="Username">
+
+                <label for="Password">PASSWORD</label>
+                <input type="password" id="Password" placeholder="Password">
+
+                <label for="confirm-password">CONFIRM PASSWORD</label>
+                <input placeholder="Confirm password" id="confirm-password">
+                <div>
+                    <button class="button" onclick="location.href = '#Register';">Sign Up</button>
+                    <a href="#" class="color-gray">Sign in</a>
+                </div>
+            </form>
+        </section>
+        <footer class="bgc-black row relative-space pt-5 m-3">
+            <div class="d-flex-lg-row row w-100 d-flex-around-center p-2 link-white">
+                <div class="flex-nowrap">
+                    <a href="../index.html">HOME</a>
+                    <a href="../html/Schools.html">SEARCH</a>
+                    <a href="../index.html">ABOUT US</a>
+                    <a href="https://www.facebook.com">FACEBOOK</a>
+                </div>
+                <div class="flex-nowrap">
+                    <a href="#">ADVERTICE</a>
+                    <a href="https://www.twitter.com">TWITTER</a>
+                    <a href="#">BLOG</a>
+                    <a href="https://www.google.com">GOOGLE+</a>
+                </div>
+                <img class="top-50 col-2 p-5 border-img display-0001" src="../assets/images/graduate.svg"
+                    alt="Universe university logo">
+            </div>
+            <div class="row w-100 d-flex-around-start ">
+                <div class="col-6 col-sm-24 order-sm-3 pt-10">
+                    <h3 class="pb-7"><label>SUBSCRIBE</label></h3>
+                    <form class="row">
+                        <input class="subscribe-black col-lg-16 col-sm-12" type="email" placeholder="your-email@example.com">
+                        <button class="button-gray col-lg-8 col-xs-12">send</button>
                     </form>
                 </div>
+                <div class="col-6 col-md-12 col-xs-24 order-sm-1 pt-10">
+                    <h3 class="pb-7">CONTACT</h3>
+                    <p class="footer-text">For more information write us <span class="color-red">universeuniversity@gmail.com</span></p>
+                </div>
+                <div class="col-6 col-md-12 col-sm-24 order-sm-2 pt-10 pb-6">
+                    <h3 class="pb-7">ABOUT</h3>
+                    <p class="footer-text">The purpose of this website is to impulse to the people to integrate to a new school and create a
+                        better society <a href="../index.html" class="color-red">Learn more...</a></p>
+                </div>
             </div>
-            <footer class="bgc-black row relative-space pt-5 m-3">
-                <div class="d-flex-lg-row row w-100 d-flex-around-center p-3 link-white">
-                    <div class="flex-nowrap">
-                        <a href="../index.html">HOME</a>
-                        <a href="../html/Schools.html">SEARCH</a>
-                        <a href="../index.html">ABOUT US</a>
-                        <a href="https://www.facebook.com">FACEBOOK</a>
-                    </div>
-                    <div class="flex-nowrap">
-                        <a href="#">ADVERTICE</a>
-                        <a href="https://www.twitter.com">TWITTER</a>
-                        <a href="#">BLOG</a>
-                        <a href="https://www.google.com">GOOGLE+</a>
-                    </div>
-                    <img class="top-50 col-2 p-5 border-img display-0001" src="../assets/images/graduate.svg" alt="Universe university logo">
+            <div class="bgc-light-black w-100 d-flex-between-center p-3">
+                <div class="d-flex-row">
+                    <a href="https://www.facebook.com">
+                        <svg class="icon-footer mrl-3" enable-background="new 0 0 24 24" height="512" viewBox="0 0 24 24" width="512" xmlns="http://www.w3.org/2000/svg"><path d="m15.997 3.985h2.191v-3.816c-.378-.052-1.678-.169-3.192-.169-3.159 0-5.323 1.987-5.323 5.639v3.361h-3.486v4.266h3.486v10.734h4.274v-10.733h3.345l.531-4.266h-3.877v-2.939c.001-1.233.333-2.077 2.051-2.077z"/></svg>
+                    </a>
+                    <a href="https://www.twittercom">
+                        <svg class="icon-footer mrl-3" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                            viewBox="0 0 512 512"  xml:space="preserve">
+                        <g>
+                            <g>
+                                <path d="M512,97.248c-19.04,8.352-39.328,13.888-60.48,16.576c21.76-12.992,38.368-33.408,46.176-58.016
+                                    c-20.288,12.096-42.688,20.64-66.56,25.408C411.872,60.704,384.416,48,354.464,48c-58.112,0-104.896,47.168-104.896,104.992
+                                    c0,8.32,0.704,16.32,2.432,23.936c-87.264-4.256-164.48-46.08-216.352-109.792c-9.056,15.712-14.368,33.696-14.368,53.056
+                                    c0,36.352,18.72,68.576,46.624,87.232c-16.864-0.32-33.408-5.216-47.424-12.928c0,0.32,0,0.736,0,1.152
+                                    c0,51.008,36.384,93.376,84.096,103.136c-8.544,2.336-17.856,3.456-27.52,3.456c-6.72,0-13.504-0.384-19.872-1.792
+                                    c13.6,41.568,52.192,72.128,98.08,73.12c-35.712,27.936-81.056,44.768-130.144,44.768c-8.608,0-16.864-0.384-25.12-1.44
+                                    C46.496,446.88,101.6,464,161.024,464c193.152,0,298.752-160,298.752-298.688c0-4.64-0.16-9.12-0.384-13.568
+                                    C480.224,136.96,497.728,118.496,512,97.248z"/>
+                            </g>
+                        </g>
+                        </svg>
+                    </a>
+                    <a href="https://www.gmail.com">
+                        <svg class="icon-footer mrl-3"xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                            <g>
+                                <g>
+                                    <path d="M467,61H45c-6.927,0-13.412,1.703-19.279,4.51L255,294.789l51.389-49.387c0,0,0.004-0.005,0.005-0.007
+                                        c0.001-0.002,0.005-0.004,0.005-0.004L486.286,65.514C480.418,62.705,473.929,61,467,61z"/>
+                                </g>
+                            </g>
+                            <g>
+                                <g>
+                                    <path d="M507.496,86.728L338.213,256.002L507.49,425.279c2.807-5.867,4.51-12.352,4.51-19.279V106
+                                        C512,99.077,510.301,92.593,507.496,86.728z"/>
+                                </g>
+                            </g>
+                            <g>
+                                <g>
+                                    <path d="M4.51,86.721C1.703,92.588,0,99.073,0,106v300c0,6.923,1.701,13.409,4.506,19.274L173.789,256L4.51,86.721z"/>
+                                </g>
+                            </g>
+                            <g>
+                                <g>
+                                    <path d="M317.002,277.213l-51.396,49.393c-2.93,2.93-6.768,4.395-10.605,4.395s-7.676-1.465-10.605-4.395L195,277.211
+                                        L25.714,446.486C31.582,449.295,38.071,451,45,451h422c6.927,0,13.412-1.703,19.279-4.51L317.002,277.213z"/>
+                                </g>
+                            </g>
+                        </svg>
+                    </a>
                 </div>
-                <div class="row w-100 d-flex-around-center p-5">
-                    <div class="col-6 col-md-24">
-                        <h3 class="p-3"><label>SUBSCRIBE</label></h3>
-                        <form class="d-flex-col">
-                            <input class="subscribe-black" type="email" placeholder="your-email@example.com">
-                            <button class="button-gray">send</button>
-                        </form>
-                    </div>
-                    <div class="col-6 col-md-12 col-sm-24">
-                        <h3 class="p-3">CONTACT</h3> <p>For more information write us <span class="color-red">universeuniversity@gmail.com</span></p>
-                    </div >
-                    <div class="col-6 col-md-12 col-sm-24">
-                        <h3 class="p-3">ABOUT</h3>
-                        <p>The purpose of this website is to impulse to the people to integrate to a new school and create a better society <a href="../index.html" class="color-red">Learn more...</a></p>
-                    </div>
-                </div>
-                <div class="row bgc-white w-100 d-flex-between-center p-3">
-                    <div>
-                        <img class="sizew-50" src="../assets/images/facebook.svg" alt="facebook">
-                        <img class="sizew-50" src="../assets/images/twitter.svg" alt="twitter">
-                        <img class="sizew-50" src="../assets/images/email.svg" alt="email logo">
-                    </div>
-                    <p>Universe University the best <br>website in the world</p>
-                </div>
-            </footer>
+                <p class="color-gray footer-text">Universe University ♥ the best website in the world</p>
+            </div>
+        </footer>
         </main>
     </body>
 </html>
