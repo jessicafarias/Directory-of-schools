@@ -1,0 +1,30 @@
+.navbar 
+    display: flex
+    flex-flow: row wrap
+    justify-content: space-between
+    align-items: center
+    width: 100%
+    position: fixed
+    top: 0
+    left: 0
+    @media screen and ( max-width: map-get($sm,max) ) and ( min-width: map-get($sm,min))
+        flex-flow: column wrap-reverse
+        .container
+            justify-content: center
+    @media screen and ( max-width: map-get($md,max) ) and ( min-width: map-get($md,min))
+        flex-flow: column wrap-revers
+
+    .container
+        display: flex
+        flex-flow: row wrap
+        justify-content: space-between
+        align-items: center
+
+    .item
+        @extend .link-full
+        a
+            color: white
+            margin: 10px
+            padding: 7px
+            font-size: 20px
+            text-decoration: none

@@ -1,0 +1,46 @@
+.relative-space
+    position: relative
+    top: 0
+    left: 0
+    height: auto
+    overflow: hidden
+
+    .center
+        position: relative
+        top: 50%
+        left: 50%
+        transform: translate(-50%, 0%)
+
+    @for $i from 1 through 50
+        $pixels: 2%*$i
+        $number : 2*$i
+        .top-#{$number}
+            position: absolute
+            top: 0
+            left: $pixels
+            transform: translate(-50%, 0)
+
+        .bottom-#{$number}
+            position: absolute
+            top: 100%
+            left: $pixels
+            transform: translate(-50%, -100%)
+
+        .center-#{$number}
+            position: absolute
+            top: 50%
+            left: $pixels
+            transform: translate(-50%, -50%)
+
+/*IMAGES STRECHED*/
+.image-size-cover
+    div img
+        object-fit: cover
+        object-position: center center
+        width: 100%
+        height: 100%
+    
+    img
+        object-fit: cover
+        object-position: center center
+        width: 100%

@@ -1,0 +1,256 @@
+/* GENERAL */
+h1 {
+  margin: auto;
+  font-size: 50px;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+h3 {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.video {
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 100vh;
+}
+
+video {
+  position: static;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.header-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 90vh;
+  background-color: rgba(44, 44, 44, 0.774);
+}
+
+/* Navbar */
+.image-ico {
+  width: 15px;
+}
+
+/* Index html */
+.border-img {
+  border: 1px solid white;
+  border-radius: 50%;
+  background-color: black;
+  max-width: 120px;
+}
+
+.border- {
+  border: 1px solid white;
+  border-radius: 50%;
+  background-color: black;
+  max-width: 120px;
+}
+
+ol {
+  list-style-type: decimal;
+}
+
+/* Options section */
+.image-option {
+  fill: #e46f52;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* Schools section */
+.text-center {
+  text-align: center;
+}
+
+.image-inline {
+  display: block;
+  float: left;
+  margin-right: 10px;
+}
+
+.mapa {
+  width: 100%;
+  margin: auto;
+  border-style: none;
+  height: 75vh;
+}
+
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: 75vh;
+  width: 100%;
+}
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 75vh;
+  width: 100%;
+}
+
+.text-search {
+  margin: 10px;
+  height: 95%;
+  padding: 1vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: justify;
+}
+
+/* Section view */
+.intro {
+  width: 95%;
+  max-width: 1310px;
+  margin: 20px auto;
+  font-size: 25px;
+}
+
+/* GRID EXAMPLE */
+.grid-container {
+  display: grid;
+  grid-template-columns: 40% 30% 30%;
+  grid-auto-rows: 45vh 45vh;
+  grid-template-areas:
+    "one two three"
+    "one four five";
+  max-width: 1200px;
+  margin: auto;
+}
+
+.one {
+  grid-area: one;
+  height: 100%;
+}
+
+.grid-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  color: white;
+  padding: 20px;
+  font-size: 1.5em;
+}
+
+.two {
+  grid-area: two;
+  height: 100%;
+}
+
+.three {
+  grid-area: three;
+  height: 100%;
+}
+
+.four {
+  grid-area: four;
+  height: 100%;
+}
+
+.five {
+  grid-area: five;
+  height: 100%;
+}
+
+.one:hover,
+.two:hover,
+.three:hover,
+.four:hover,
+.five:hover {
+  opacity: 85%;
+}
+
+.text-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 1.5em;
+  margin: auto;
+  max-width: 500px;
+  padding: 10px;
+}
+
+/* Location section */
+.logo-information {
+  width: 50px;
+  object-fit: contain;
+}
+
+.icon-apply {
+  fill: white;
+  width: 20px;
+  height: 20px;
+}
+
+.icon-information {
+  fill: blue;
+  width: 20px;
+  height: 20px;
+}
+
+footer {
+  text-align: center;
+  margin-bottom: 2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-text {
+  font-size: 15px;
+  font-weight: normal;
+  color: gray;
+}
+
+.icon-footer {
+  width: 12px;
+  height: 12px;
+  fill: #4d4d4d;
+}
+
+@media screen and (max-width: 768px) and (min-width: 50px) {
+  .grid-container {
+    grid-template-columns: 100%;
+    grid-auto-rows: 80vh;
+    grid-template-areas:
+      "one"
+      "two"
+      "three"
+      "four"
+      "five";
+  }
+
+  footer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+  .grid-container {
+    grid-template-columns: 50% 50%;
+    grid-auto-rows: 60vh 50vh 50vh;
+    grid-template-areas:
+      "one one"
+      "two three"
+      "four five";
+  }
+}

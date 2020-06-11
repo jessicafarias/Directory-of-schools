@@ -1,0 +1,24 @@
+
+@for $i from 1 through 6
+    .order-#{$i}
+        order: $i
+    
+    @media screen and ( max-width: map-get($xs,max))
+        .order-xs-#{$i}
+            order: $i
+    
+    @media screen and ( max-width: map-get($sm,max)) and (min-width: map-get($sm,min))
+        .order-sm-#{$i}
+            order: $i
+
+    @media screen and ( max-width: map-get($md,max)) and (min-width: map-get($md,min))
+        .order-md-#{$i}
+            order: $i
+
+    @media screen and ( max-width: map-get($lg,max)) and (min-width: map-get($lg,min))
+        .order-lg-#{$i}
+            order: $i
+
+    @media screen and (min-width: map-get($xl,min))
+        .order-xl-#{$i}
+            order: $i

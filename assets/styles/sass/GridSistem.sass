@@ -1,0 +1,38 @@
+$increment: 4.16%
+$columns : 24
+
+@for $i from 1 through 24
+    .col-#{$i}
+        width: $i*$increment
+    
+    @media screen and ( max-width: map-get($xs,max) )
+        .col-xs-#{$i}
+            width: $i*$increment
+    
+    @media screen and ( max-width: map-get($sm,max) )
+        .col-sm-#{$i}
+            width: $i*$increment
+
+    @media screen and ( max-width: map-get($md,max) )
+        .col-md-#{$i}
+            width: $i*$increment
+
+    @media screen and ( max-width: map-get($lg,max) )
+        .col-lg-#{$i}
+            width: $i*$increment
+
+    @media screen and ( max-width: map-get($xl,max) )
+        .col-xl-#{$i}
+            width: $i*$increment
+
+.row-container
+    display: flex
+    flex-flow: row wrap
+    margin: auto
+    overflow: hidden
+    max-width: 1200px
+.row
+    display: flex
+    flex-flow: row wrap
+    margin: auto
+    overflow: hidden

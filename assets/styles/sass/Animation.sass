@@ -1,0 +1,40 @@
+.diagonal-slowmotion
+  animation-name: d-slowmotion
+  animation-duration: 2s
+  animation-iteration-count: infinite
+  animation-direction: alternate
+
+@keyframes d-slowmotion
+  from 
+      transform: rotate(1deg)
+
+  to 
+      transform: rotate(-1deg)
+
+.updown-slowmotion
+  animation-name: upd-slowmotion
+  animation-duration: 2s
+  animation-iteration-count: infinite
+  animation-direction: alternate
+
+  @keyframes upd-slowmotion
+    from 
+      transform: translateY(0px)
+
+    to 
+      transform: translateY(10px)
+
+
+.link-full
+  a
+    background-image: url(../../images/Back-black.png)
+    background-size: 100% 0%
+    background-repeat: no-repeat
+    background-position: bottom center
+    transition: background-size 0.5s
+    color: white
+    font-size: 1.15em
+  
+  a:hover 
+    background-size: 100% 100%
+    color: white
