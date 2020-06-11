@@ -192,6 +192,16 @@ ol {
   width: 50px;
   object-fit: contain;
 }
+.icon-apply{
+  fill: white;
+  width: 20px;
+  height: 20px;
+}
+.icon-information{
+  fill: blue;
+  width: 20px;
+  height: 20px;
+}
 
 footer {
   text-align: center;

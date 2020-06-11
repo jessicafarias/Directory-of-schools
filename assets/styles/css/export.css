@@ -2852,6 +2852,7 @@ body {
   color: white;
   font-size: 18px;
   cursor: pointer;
+  border-style: none;
 }
 
 .button-yellow, .list a button {
@@ -2863,11 +2864,11 @@ body {
 .button-white-red {
   background-color: white;
   color: #d95f4c;
+  border-style: none;
 }
 
 .button-white-blue {
   background-color: white;
-  border-radius: 5px;
   border-style: none;
   color: #519cd8;
 }
