@@ -95,7 +95,7 @@ Go to the project directory and run open the `index.html` file on your browser.
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](issues).
 
 ## Show your support
 
