@@ -15,6 +15,7 @@ This web page is developed by HTML5, CSS and bootstrap.
 - HTML5
 - CSS
 - SASS
+- Bootstrap
 - Stylelint and stickler for linting purpose
 - html-validator-cli for validate HTML
 - Mort
